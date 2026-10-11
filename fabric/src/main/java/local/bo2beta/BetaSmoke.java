@@ -39,6 +39,7 @@ public final class BetaSmoke {
     private static final AtomicBoolean ready=new AtomicBoolean();
     public static void tick(Minecraft client){
         if(!Boolean.getBoolean("bo2beta.smoke"))return;
+        if(Boolean.getBoolean("bo2beta.mapCheck")){MapSmoke.tick(client);return;}
         if(Boolean.getBoolean("bo2beta.matchCheck")){MatchSmoke.tick(client);return;}
         if(Boolean.getBoolean("bo2beta.botCheck")){BotSmoke.tick(client);return;}
         if((stage==6 || stage==17) && client.screen instanceof LobbyScreen){var b=client.screen.children().stream().filter(w->w instanceof net.minecraft.client.gui.components.Button).map(w->(net.minecraft.client.gui.components.Button)w).filter(w->w.getMessage().getString().equals("Arsenal / settings")).findFirst().orElseThrow();client.screen.mouseClicked(b.getX()+2,b.getY()+2,0);return;}

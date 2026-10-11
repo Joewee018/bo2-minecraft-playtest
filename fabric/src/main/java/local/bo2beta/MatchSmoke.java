@@ -44,9 +44,10 @@ public final class MatchSmoke {
         if(stage==9){c.options.keyUse.setDown(false);if(skinIndex>=skins.size()){task(c,()->{PlayerCharacters.select(player(c),"default");player(c).getInventory().clearContent();player(c).getInventory().setItem(8,new ItemStack(Items.DIAMOND,7));});stage=11;return;}String skin=skins.get(skinIndex);handStart=PlayerCharacterClient.handFrames;fireStart=OriginalView.renderedFireFrames;reloadStart=OriginalView.renderedReloadFrames;pinStart=OriginalGrenadeView.pinFrames;task(c,()->{var p=player(c);p.setGameMode(GameType.ADVENTURE);p.getInventory().setItem(0,new ItemStack(Beta.GUNS.get("ar_ak47")));p.getInventory().selected=0;PlayerCharacters.select(p,skin);Beta.resetWeapon(p);});stage=10;wait=0;return;}
         if(stage==10 && ready.get()){
             ++wait;String name=skins.get(skinIndex);
+            if(wait>=12 && wait<20)c.options.keyAttack.setDown(true);
             if(wait==12){Screenshot.grab(c.gameDirectory,"first-person-"+name+".png",c.getMainRenderTarget(),m->{});c.options.keyAttack.setDown(true);}
             if(wait==16)Screenshot.grab(c.gameDirectory,"first-person-fire-"+name+".png",c.getMainRenderTarget(),m->{});
-            if(wait==20){c.options.keyAttack.setDown(false);BetaClient.send("reload","",false,false);}
+            if(wait==20){System.out.println("WEAPON INPUT TRACE: "+name+" clientHand="+c.player.getMainHandItem()+" screen="+c.screen+" state="+BetaClient.state);task(c,()->System.out.println("WEAPON SERVER TRACE: "+name+" "+Beta.weaponDebug(player(c))));c.options.keyAttack.setDown(false);BetaClient.send("reload","",false,false);}
             if(wait==36)Screenshot.grab(c.gameDirectory,"first-person-reload-"+name+".png",c.getMainRenderTarget(),m->{});
             if(wait==65)task(c,()->{var p=player(c);p.getInventory().setItem(0,new ItemStack(Beta.GRENADE,2));});
             if(wait==70){c.options.keyUse.setDown(true);task(c,()->{var p=player(c);check(GrenadeController.begin(p,p.getMainHandItem()),"Grenade begin rejected "+name+" item="+p.getMainHandItem());});}

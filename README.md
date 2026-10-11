@@ -42,3 +42,7 @@ Install a current Rust toolchain, then `cargo build --manifest-path companion/Ca
 ## Publish
 
 GitHub Pages can serve `/docs` on the `main` branch. The page's relative download link also works in a project Pages site. The public package is audited to contain only compiled integration classes, root mod metadata, companion code/binary, installer, docs and asset hashes.
+
+## Additional map profiles
+
+Revolution and Strike support the same match core through a world-local `bo2-match-map.json`. Obtain the Minecraft worlds independently. The profile contains map name, entry point, arena polygon, valid standing spawn points and movement/spawn height bounds. No map archives or converted worlds are distributed. Arbitrary maps need their profiles prepared and collision-tested before use.

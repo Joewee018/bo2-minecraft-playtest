@@ -54,14 +54,28 @@ public final class Beta implements ModInitializer {
     private static final class Input {boolean held,pressed,reload,busy;int last;long sequence;float peek,aim;long lastStep=-1;Gun gun;}
     private final Map<UUID,Input> inputs=new HashMap<>();
     private Bridge bridge;
+    static String weaponDebug(ServerPlayer p){var i=active.inputs.get(p.getUUID());return "hand="+p.getMainHandItem()+" slot="+p.getInventory().selected+" alive="+p.isAlive()+" playing="+MatchDirector.playing(p)+" cooking="+GrenadeController.active(p)+(i==null?" input=null":" held="+i.held+" pressed="+i.pressed+" busy="+i.busy+" sequence="+i.sequence+" gun="+(i.gun==null?"null":i.gun.id));}
     private static Beta active;
     private static final Map<UUID,Integer> hudKills=new HashMap<>();
     static void resetWeapon(ServerPlayer player){
+        GrenadeController.cancel(player);
         if(active!=null)active.inputs.remove(player.getUUID());
         if(botBridge!=null){var request=new JsonObject();request.addProperty("op","player_reset");request.addProperty("player",player.getUUID().toString());botBridge.request(request);}
         var packet=new JsonObject();packet.addProperty("reset",true);send(player,packet);
     }
     public void onInitialize() {
+        // Weapon use must not open nearby containers/workstations during ADS or grenade cooking.
+        net.fabricmc.fabric.api.event.player.UseBlockCallback.EVENT.register((player,level,hand,hit)->{
+            if(hand!=InteractionHand.MAIN_HAND)return InteractionResult.PASS;
+            var stack=player.getItemInHand(hand);
+            if(stack.getItem() instanceof Gun || stack.getItem() instanceof UtilityGuns.UtilityItem)return InteractionResult.SUCCESS;
+            if(stack.getItem()==GRENADE){
+                if(!level.isClientSide && player instanceof ServerPlayer serverPlayer
+                    && !player.getCooldowns().isOnCooldown(GRENADE) && !GrenadeController.active(serverPlayer))GrenadeController.begin(serverPlayer,stack);
+                return InteractionResult.SUCCESS;
+            }
+            return InteractionResult.PASS;
+        });
         active=this;
         net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry.register(BOT_ENTITY,Bo2Bot.attributes());
         try(var reader=new InputStreamReader(Objects.requireNonNull(Beta.class.getResourceAsStream("/data/bo2beta/weapons.json")),StandardCharsets.UTF_8)) {
@@ -72,7 +86,7 @@ public final class Beta implements ModInitializer {
             .title(Component.translatable("itemGroup.bo2beta")).icon(()->new ItemStack(GRENADE))
             .displayItems((p,out)->{GUNS.values().forEach(out::accept);out.accept(GRENADE);}).build());
         ServerLivingEntityEvents.ALLOW_DAMAGE.register((entity,source,amount)->{boolean allowed=!source.is(GrenadeController.VISUAL_BLAST) && MatchDirector.damageAllowed(entity,source);if(allowed && amount>0)CombatRules.damaged(entity);return allowed;});
-        ServerLifecycleEvents.SERVER_STARTED.register(server->{bridge=new Bridge();botBridge=bridge;inputs.clear();hudKills.clear();GrenadeController.start(bridge);MatchDirector.reset();CombatRules.reset();PlayerAnimations.reset();});
+        ServerLifecycleEvents.SERVER_STARTED.register(server->{bridge=new Bridge();botBridge=bridge;inputs.clear();hudKills.clear();GrenadeController.start(bridge);MatchDirector.reset(server);CombatRules.reset();PlayerAnimations.reset();});
         ServerLifecycleEvents.SERVER_STOPPING.register(server->{MatchDirector.stop(server,"Server closed");CombatRules.stop();GrenadeController.stop();if(bridge!=null)bridge.close();bridge=null;botBridge=null;inputs.clear();});
         ServerPlayConnectionEvents.DISCONNECT.register((handler,server)->{inputs.remove(handler.player.getUUID());GrenadeController.cancel(handler.player);MatchDirector.disconnect(handler.player);});
         ServerPlayConnectionEvents.JOIN.register((handler,sender,server)->{if(MatchDirector.nuketown(handler.player.serverLevel()))CombatRules.prepare(handler.player);MatchDirector.enterArena(handler.player);MatchDirector.joined(handler.player);PlayerCharacters.broadcast(server);MatchDirector.send(handler.player);});

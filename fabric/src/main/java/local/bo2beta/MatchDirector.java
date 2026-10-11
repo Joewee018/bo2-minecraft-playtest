@@ -34,6 +34,11 @@ public final class MatchDirector {
     private static final Random random=new Random();
     private static List<Vec3> spawnPoints;
     private static List<double[]> arena;
+    private static JsonObject mapData;
+    private static boolean customMap;
+    static String mapName="Nuketown";
+    static Vec3 mapEntry=new Vec3(1630.5,20,-792.5);
+    private static double spawnMin=18,spawnMax=60,moveMin=14,moveMax=60,moveMargin=6;
     private static final Map<UUID,Vec3> lastArenaPosition=new HashMap<>();
     private static final Map<UUID,Integer> outsideTicks=new HashMap<>();
     public static final class Entry {
@@ -75,7 +80,11 @@ public final class MatchDirector {
         public String result="";
         Session(ServerPlayer host,Mode mode,int bots,int limit,int minutes){this.host=host.getUUID();this.level=host.serverLevel();this.mode=mode;botCount=bots;scoreLimit=mode==Mode.GUN_GAME?GUN_LADDER.size():limit;timeLimit=minutes*60*20;countdownEnd=level.getGameTime()+60;}
     }
-    public static void reset(){session=null;entities.clear();lastArenaPosition.clear();outsideTicks.clear();}
+    public static void reset(){session=null;entities.clear();lastArenaPosition.clear();outsideTicks.clear();spawnPoints=null;mapData=null;customMap=false;mapName="Nuketown";spawnMin=18;spawnMax=60;moveMin=14;moveMax=60;moveMargin=6;mapEntry=new Vec3(1630.5,20,-792.5);}
+    public static void reset(MinecraftServer server){
+        reset();var path=server.getWorldPath(net.minecraft.world.level.storage.LevelResource.ROOT).resolve("bo2-match-map.json");
+        if(java.nio.file.Files.isRegularFile(path))try(var reader=java.nio.file.Files.newBufferedReader(path,StandardCharsets.UTF_8)){mapData=JsonParser.parseReader(reader).getAsJsonObject();customMap=true;loadSpawns();}catch(IOException|RuntimeException ex){throw new IllegalStateException("Invalid match map profile: "+path,ex);}
+    }
     public static boolean owns(LivingEntity entity){return entities.containsKey(entity.getUUID());}
     public static boolean playing(LivingEntity entity){return !owns(entity) || session!=null && session.phase==Phase.PLAYING;}
     public static boolean target(LivingEntity attacker,LivingEntity victim){
@@ -97,9 +106,9 @@ public final class MatchDirector {
         if(!canHost(host)){message(host,"Only the host/operator can start a match.");return false;}
         if(mode==null || bots<0 || bots>=MAX_COMBATANTS || limit<1 || limit>1000 || minutes<0 || minutes>60)return false;
         var level=host.serverLevel();var origin=level.getSharedSpawnPos();
-        if(Math.abs(origin.getX()-1633)>100 || Math.abs(origin.getZ()+784)>100){message(host,"Open the Nuketown world to start this lobby.");return false;}
+        if(!nuketown(level)){message(host,"Open a configured match map to start this lobby.");return false;}
         var humans=new ArrayList<>(level.players());humans.sort(Comparator.comparing(p->!p.getUUID().equals(host.getUUID())));
-        if(humans.size()+bots>MAX_COMBATANTS){message(host,"Nuketown supports up to 18 combatants, including players.");return false;}
+        if(humans.size()+bots>MAX_COMBATANTS){message(host,"The match supports up to 18 combatants, including players.");return false;}
         if(humans.size()+bots<2){message(host,"Choose at least one opponent.");return false;}
         var next=new Session(host,mode,bots,limit,minutes);next.difficulty=difficulty;session=next;
         for(var player:humans){var e=new Entry(player);next.roster.add(e);entities.put(player.getUUID(),e);}
@@ -107,23 +116,28 @@ public final class MatchDirector {
         int[] teams={0,0};
         for(var e:next.roster){e.team=mode==Mode.TDM?(teams[0]<=teams[1]?0:1):next.roster.indexOf(e);if(mode==Mode.TDM)teams[e.team]++;}
         // Remove existing debug bots from the arena, not unrelated mobs/worlds.
-        for(var b:level.getEntitiesOfClass(Bo2Bot.class,new net.minecraft.world.phys.AABB(1550,0,-870,1715,100,-700)))if(!owns(b))b.discard();
+        for(var b:level.getEntitiesOfClass(Bo2Bot.class,mapBox()))if(!owns(b))b.discard();
         try{for(var e:next.roster)spawn(e);}catch(IllegalStateException ex){stop(host.server,"Match could not start: "+ex.getMessage());message(host,ex.getMessage());return false;}
         broadcast(host.server);return true;
     }
     private static void loadSpawns(){
         if(spawnPoints!=null)return;
-        try(var in=MatchDirector.class.getResourceAsStream("/data/bo2beta/nuketown-spawns.json")){
-            var data=JsonParser.parseReader(new InputStreamReader(Objects.requireNonNull(in),StandardCharsets.UTF_8)).getAsJsonObject();var array=data.getAsJsonArray("points");arena=new ArrayList<>();for(var item:data.getAsJsonArray("polygon")){var a=item.getAsJsonArray();arena.add(new double[]{a.get(0).getAsDouble(),a.get(1).getAsDouble()});}
+        try {
+            if(mapData==null)try(var in=MatchDirector.class.getResourceAsStream("/data/bo2beta/nuketown-spawns.json")){mapData=JsonParser.parseReader(new InputStreamReader(Objects.requireNonNull(in),StandardCharsets.UTF_8)).getAsJsonObject();}
+            var data=mapData;mapName=data.get("map").getAsString();var entry=data.getAsJsonArray("entry");mapEntry=new Vec3(entry.get(0).getAsDouble(),entry.get(1).getAsDouble(),entry.get(2).getAsDouble());
+            if(data.has("spawn_min_y")){spawnMin=data.get("spawn_min_y").getAsDouble();spawnMax=data.get("spawn_max_y").getAsDouble();moveMin=data.get("movement_min_y").getAsDouble();moveMax=data.get("movement_max_y").getAsDouble();moveMargin=data.get("movement_margin").getAsDouble();}
+            var array=data.getAsJsonArray("points");arena=new ArrayList<>();for(var item:data.getAsJsonArray("polygon")){var a=item.getAsJsonArray();arena.add(new double[]{a.get(0).getAsDouble(),a.get(1).getAsDouble()});}
             spawnPoints=new ArrayList<>();for(var p:array){var v=p.getAsJsonArray();spawnPoints.add(new Vec3(v.get(0).getAsDouble(),v.get(1).getAsDouble(),v.get(2).getAsDouble()));}
-        }catch(IOException e){throw new IllegalStateException("Nuketown spawn data unavailable",e);}
+            if(arena.size()<3 || spawnPoints.size()<2 || spawnMin>=spawnMax || moveMin>=moveMax || moveMargin<0 || moveMargin>12)throw new IllegalStateException("Invalid arena geometry");
+        }catch(IOException e){throw new IllegalStateException("Match spawn data unavailable",e);}
     }
+    private static net.minecraft.world.phys.AABB mapBox(){loadSpawns();return new net.minecraft.world.phys.AABB(arena.stream().mapToDouble(a->a[0]).min().orElseThrow()-moveMargin,moveMin,arena.stream().mapToDouble(a->a[1]).min().orElseThrow()-moveMargin,arena.stream().mapToDouble(a->a[0]).max().orElseThrow()+moveMargin,moveMax,arena.stream().mapToDouble(a->a[1]).max().orElseThrow()+moveMargin);}
     static boolean safe(ServerLevel level,LivingEntity entity,Vec3 point){
-        if(!insideArena(point))return false;var feet=BlockPos.containing(point);var floor=feet.below();var state=level.getBlockState(floor);
-        if(!level.getWorldBorder().isWithinBounds(feet) || !state.isSolidRender(level,floor) || !state.getFluidState().isEmpty()
+        if(!insideArena(point))return false;var feet=BlockPos.containing(point);var floor=BlockPos.containing(point.add(0,-.01,0));var state=level.getBlockState(floor);
+        if(!level.getWorldBorder().isWithinBounds(feet) || state.getCollisionShape(level,floor).isEmpty() || !state.getFluidState().isEmpty()
             || state.is(Blocks.MAGMA_BLOCK) || state.is(Blocks.CAMPFIRE) || state.is(Blocks.CACTUS))return false;
         var box=entity.getBoundingBox().move(point.subtract(entity.position())).deflate(.01);
-        return level.noCollision(entity,box) && !level.containsAnyLiquid(box) && level.getBlockState(feet).getCollisionShape(level,feet).isEmpty()
+        return level.noCollision(entity,box) && !level.containsAnyLiquid(box)
             && !level.getBlockState(feet).is(Blocks.FIRE) && !level.getBlockState(feet).is(Blocks.POWDER_SNOW);
     }
     private static Vec3 chooseSpawn(Entry entry){
@@ -215,16 +229,16 @@ public final class MatchDirector {
         for(var e:session.roster)if(e.entity instanceof Bo2Bot bot){bot.setNoAi(true);bot.getNavigation().stop();bot.setTarget(null);}
     }
     public static boolean insideArena(Vec3 p){
-        loadSpawns();boolean inside=false;for(int i=0,j=arena.size()-1;i<arena.size();j=i++){var a=arena.get(i);var b=arena.get(j);if((a[1]>p.z)!=(b[1]>p.z) && p.x<(b[0]-a[0])*(p.z-a[1])/(b[1]-a[1])+a[0])inside=!inside;}return inside && p.y>=18 && p.y<60;
+        loadSpawns();boolean inside=false;for(int i=0,j=arena.size()-1;i<arena.size();j=i++){var a=arena.get(i);var b=arena.get(j);if((a[1]>p.z)!=(b[1]>p.z) && p.x<(b[0]-a[0])*(p.z-a[1])/(b[1]-a[1])+a[0])inside=!inside;}return inside && p.y>=spawnMin && p.y<spawnMax;
     }
     /** Spawn candidates stay strict; movement includes road edges, steps and ordinary jumps. */
     public static boolean withinMovementBounds(Vec3 p){
-        if(p.y<14 || p.y>=60)return false;
-        if(insideArena(new Vec3(p.x,20,p.z)))return true;
+        loadSpawns();if(p.y<moveMin || p.y>=moveMax)return false;
+        if(insideArena(new Vec3(p.x,spawnMin,p.z)))return true;
         for(int i=0,j=arena.size()-1;i<arena.size();j=i++){
             var a=arena.get(j);var b=arena.get(i);double dx=b[0]-a[0],dz=b[1]-a[1];
             double t=Math.max(0,Math.min(1,((p.x-a[0])*dx+(p.z-a[1])*dz)/(dx*dx+dz*dz)));
-            double x=p.x-(a[0]+t*dx),z=p.z-(a[1]+t*dz);if(x*x+z*z<=36)return true;
+            double x=p.x-(a[0]+t*dx),z=p.z-(a[1]+t*dz);if(x*x+z*z<=moveMargin*moveMargin)return true;
         }return false;
     }
     private static void confine(LivingEntity entity){
@@ -232,7 +246,7 @@ public final class MatchDirector {
         if(!entity.isAlive() || !nuketown(level))return;
         if(withinMovementBounds(entity.position())){outsideTicks.remove(id);if(safe(level,entity,entity.position()))lastArenaPosition.put(id,entity.position());return;}
         // A brief crossing of an edge must not teleport a running or jumping player.
-        if(entity.getY()>=14 && outsideTicks.merge(id,1,Integer::sum)<20)return;
+        if(entity.getY()>=moveMin && outsideTicks.merge(id,1,Integer::sum)<20)return;
         Vec3 at=lastArenaPosition.get(id);
         if(at==null || !safe(level,entity,at)){loadSpawns();at=spawnPoints.stream().filter(v->safe(level,entity,v)).min(Comparator.comparingDouble(v->v.distanceToSqr(entity.position()))).orElse(null);}
         if(at==null)return;entity.fallDistance=0;entity.setDeltaMovement(Vec3.ZERO);
@@ -240,11 +254,11 @@ public final class MatchDirector {
         else entity.moveTo(at.x,at.y,at.z,entity.getYRot(),entity.getXRot());
         lastArenaPosition.put(id,at);outsideTicks.remove(id);
     }
-    public static boolean nuketown(ServerLevel level){var p=level.getSharedSpawnPos();return level.dimension()==net.minecraft.world.level.Level.OVERWORLD && Math.abs(p.getX()-1633)<100 && Math.abs(p.getZ()+784)<100;}
+    public static boolean nuketown(ServerLevel level){var p=level.getSharedSpawnPos();return level.dimension()==net.minecraft.world.level.Level.OVERWORLD && (customMap || Math.abs(p.getX()-1633)<100 && Math.abs(p.getZ()+784)<100);}
     public static void enterArena(ServerPlayer p){
         if(Boolean.getBoolean("bo2beta.smoke") && !Boolean.getBoolean("bo2beta.matchCheck"))return;
         if(!nuketown(p.serverLevel()) || !p.isAlive() || withinMovementBounds(p.position()))return;
-        loadSpawns();Vec3 at=spawnPoints.stream().filter(v->safe(p.serverLevel(),p,v)).min(Comparator.comparingDouble(v->v.distanceToSqr(new Vec3(1630.5,20,-792.5)))).orElse(null);
+        loadSpawns();Vec3 at=spawnPoints.stream().filter(v->safe(p.serverLevel(),p,v)).min(Comparator.comparingDouble(v->v.distanceToSqr(mapEntry))).orElse(null);
         if(at!=null){p.fallDistance=0;p.setDeltaMovement(Vec3.ZERO);p.connection.teleport(at.x,at.y,at.z,180,0);}
     }
     public static void tick(MinecraftServer server){
@@ -324,7 +338,7 @@ public final class MatchDirector {
     }
     public static void send(ServerPlayer p){
         var state=new JsonObject();state.addProperty("phase",session==null?"LOBBY":session.phase.name());
-        state.addProperty("canControl",session==null?canHost(p):session.host.equals(p.getUUID())||p.hasPermissions(2));
+        state.addProperty("map",nuketown(p.serverLevel())?mapName:"Unconfigured world");state.addProperty("canControl",session==null?canHost(p):session.host.equals(p.getUUID())||p.hasPermissions(2));
         if(session!=null){
             state.addProperty("difficulty",session.difficulty.name());state.addProperty("mode",session.mode.name());state.addProperty("label",session.mode.label);state.addProperty("result",session.result);
             state.addProperty("limit",session.scoreLimit);state.addProperty("team1",session.teamScores[0]);state.addProperty("team2",session.teamScores[1]);

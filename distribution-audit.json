@@ -1,9 +1,9 @@
 {
   "status": "passed",
   "no_game_assets_bundled": true,
-  "download_bytes": 795900,
-  "download_sha256": "1e41d7422deb1f50ca560691122d4f87057400f70ba4c3e920e0bdedbcd1b8ca",
-  "core_sha256": "84755ce8721d4afdd3c5183ed306060210a470eac6e63c49157d9d7d50137bc6",
+  "download_bytes": 815051,
+  "download_sha256": "5a298eca47c3051a0be4c26a5ee9bec1be0857afad4ba88eb64b34955716b6e7",
+  "core_sha256": "46b8fc3e76e78f3fb23f9e2e36633ad02962d8d25fdf91b70f4e19cf7e5cfe7d",
   "companion_sha256": "2d1369e7c0a1cac783ef84df09bcb5939ca4532aebb388cf450b741bfc0625f2",
   "checks": [
     "explicit download allowlist",

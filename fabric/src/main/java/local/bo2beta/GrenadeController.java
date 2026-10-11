@@ -31,7 +31,7 @@ public final class GrenadeController {
     public static boolean active(ServerPlayer player){return cooks.containsKey(player.getUUID());}
     public static void hold(ServerPlayer player,boolean held){var c=cooks.get(player.getUUID());if(c!=null){c.held=held;c.lastInput=player.server.getTickCount();}}
     public static void cancel(ServerPlayer player){
-        cooks.remove(player.getUUID());var packet=new JsonObject();packet.addProperty("grenade_cancelled",true);Beta.send(player,packet);if(bridge==null)return;
+        var cancelled=cooks.remove(player.getUUID());if(cancelled!=null)player.getCooldowns().addCooldown(Beta.GRENADE,8);var packet=new JsonObject();packet.addProperty("grenade_cancelled",true);Beta.send(player,packet);if(bridge==null)return;
         var request=new JsonObject();request.addProperty("op","grenade_cancel");request.addProperty("player",player.getUUID().toString());bridge.request(request);
     }
     public static boolean begin(ServerPlayer player,ItemStack stack){
