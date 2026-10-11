@@ -1,0 +1,8 @@
+package local.bo2beta.mixin;
+import net.minecraft.server.level.ServerPlayer;
+import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.gen.Accessor;
+@Mixin(ServerPlayer.class)
+public interface ServerPlayerAccess {
+    @Accessor("spawnInvulnerableTime") void bo2beta$spawnProtection(int ticks);
+}

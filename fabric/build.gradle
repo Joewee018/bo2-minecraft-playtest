@@ -1,0 +1,18 @@
+plugins { id 'fabric-loom' version '1.6.12' }
+version = '0.1.0-beta'
+group = 'local.bo2beta'
+base { archivesName = 'bo2-minecraft-beta-1.20.1' }
+repositories { mavenCentral() }
+dependencies {
+ minecraft 'com.mojang:minecraft:1.20.1'
+ mappings loom.officialMojangMappings()
+ modImplementation 'net.fabricmc:fabric-loader:0.19.5'
+ modImplementation 'net.fabricmc.fabric-api:fabric-api:0.92.2+1.20.1'
+}
+java { toolchain { languageVersion = JavaLanguageVersion.of(17) }; withSourcesJar() }
+tasks.withType(JavaCompile).configureEach { options.release = 17 }
+loom { runs { client { vmArg '-Xms512M'; vmArg '-Xmx1536M'; if(project.hasProperty('smoke')) vmArg '-Dbo2beta.smoke=true' } } }
+processResources { inputs.property 'version', project.version; filesMatching('fabric.mod.json') { expand version: project.version } }
+tasks.register('writeRuntimeClasspath') {
+ doLast { file('../verification/runtime-classpath.json').text = groovy.json.JsonOutput.toJson(sourceSets.main.runtimeClasspath.files.collect { it.absolutePath }) }
+}

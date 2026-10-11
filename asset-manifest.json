@@ -1,0 +1,2390 @@
+{
+  "format": 1,
+  "resources": [
+    {
+      "path": "assets/bo2beta/bots/catalog.json",
+      "sha256": "dda37cdb0dd87d296aa31fb7ceba2c3d864a9641d6a5d60e11309b751888c84d",
+      "size": 1666,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/cdc-native.glb",
+      "sha256": "435f92936b401722ce0e99a18432cd9ee0f957fac68e8bbb79330b188a83d4e2",
+      "size": 2352384,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/cdc-native.preview.json",
+      "sha256": "ab7503bdfb840418b2b26f28f0ee58fb40bb93d822c667d5de42f2f57b80721e",
+      "size": 2846,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/cdc.glb",
+      "sha256": "00d5d5db9166f0760fd41b942f732148ab4aebbb7206d5bd77801c061e24e323",
+      "size": 952860,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/clips.json",
+      "sha256": "95258ab164e92026727806a00c346c15133964deea108ab8c6e22d1788e4f152",
+      "size": 2157,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/custom/chun-li-fortnite-skin.glb",
+      "sha256": "744237a998b77237afe84ce34cd28ddc44b73f647572d0114ec4345cb0f3b9a1",
+      "size": 3640288,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/bots/custom/debug-report.json",
+      "sha256": "3e9be060e595760e7ba08fdb3ca0fc903e81953ed6964e5b90ac02ceeb522a6e",
+      "size": 13842,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/bots/custom/fortnite-the-foundation.glb",
+      "sha256": "8fa000b798654871bfc17f7af8643d5ad3a104365e69b93a1ec8a50e44cbecf5",
+      "size": 5586528,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/bots/custom/foxy-of-fortnite-fanmade.glb",
+      "sha256": "df80fcd5d41fb1eed1c16af84b3ee8ae8ddc0ee0b9c02389194416606f6e7c70",
+      "size": 6168128,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/bots/custom/freddy-fazbear-fortnite.glb",
+      "sha256": "ce4d196863245baaac7f214337dc255e968b1491c1ba0bec5e578e46f267f09a",
+      "size": 6448196,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/bots/custom/male-character-ps1-style.glb",
+      "sha256": "431871b4e0d8418b9f26e9e38765984e173f765f0416faf8b527e4ae2d433e1e",
+      "size": 1732316,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/bots/custom/mint-swimsuit-animated-neverness-to-everness.glb",
+      "sha256": "b18491e83a96929a70c1670b49c293ac6f74a01fe3ce5a27a0815b0d4c4e402e",
+      "size": 10380076,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/bots/custom/peelyfortnite.glb",
+      "sha256": "3e76edd5e2b7b06cb43817718d996c1dbfff465f00bcf663269aa87cc954168c",
+      "size": 7720612,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/bots/custom/spiderman-brand-new-day-from-fortnite.glb",
+      "sha256": "bb6387a21fc880ceb29c691ebdb9e0f0d114bb005fdde55442ed66ad8538aa7f",
+      "size": 6146984,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/bots/t6_wpn_ar_ak47_world.glb",
+      "sha256": "43f3a07a3ec230b2ebbe364b82974f0c08985b13f72eebad4e7e9693503b6b2c",
+      "size": 98116,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/t6_wpn_ar_fal_world.glb",
+      "sha256": "5b5228e7eb1f1b845f365985009a5d48ec8a6a7c1d71aaa7d12a16e5bc835339",
+      "size": 166444,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/t6_wpn_ar_galil_world.glb",
+      "sha256": "e64483e3d3842599dab884e30e0c839b11da9f6a22306dcfe5d099cd3131a68e",
+      "size": 120824,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/t6_wpn_ar_m14_world.glb",
+      "sha256": "b2ed5b7923b6f1ec1ae6eabf1fb32bb76932e4eb26a790a8a168a111491b09de",
+      "size": 142736,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/t6_wpn_ar_m16a2_world.glb",
+      "sha256": "ccffea86b5f9b0fa76fdf157b8d9532c46e9de5f26f466dce93e59478a357656",
+      "size": 120972,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/t6_wpn_ar_m4_world.glb",
+      "sha256": "48ae96b1295561786e9a571e52851799733e1794febdca556b5e24c3e1e4f547",
+      "size": 126468,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/t6_wpn_ar_saritch_world.glb",
+      "sha256": "f94b5157a22bdd7c27393c4e613e68ce5750c5a3f9ab301172f657f586821480",
+      "size": 157748,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/t6_wpn_ar_type95_world.glb",
+      "sha256": "f281a55986c1267f8037e56230243500e76d02638ddd8479219ebbd736eea29e",
+      "size": 122868,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/t6_wpn_ar_x95l_world.glb",
+      "sha256": "86bc7fe07b3ad74970eaad75c3626352d91f27624237e74f02430d7f531a53d4",
+      "size": 161828,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/t6_wpn_ar_xm8_world.glb",
+      "sha256": "d95d0d3c6a8a171c3fcbf9cbd0a1637abb8209b8f28ae88c05905a5aee0a5872",
+      "size": 159360,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/t6_wpn_lmg_hamr_world.glb",
+      "sha256": "c308f1ce32589486726342d4c4de06dcce79610a7094c9f27b202e8c5d79e868",
+      "size": 181452,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/t6_wpn_lmg_m60_world.glb",
+      "sha256": "c46867730fd77c4b8a1c75e27a8369f02a86de24622f6fa7bfe8f42c57384ae4",
+      "size": 265996,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/t6_wpn_lmg_rpd_world.glb",
+      "sha256": "0de28ef9e76062701760a3b1d70874487a9075ca4e67125f2fb9c2ba8db3f34f",
+      "size": 125548,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/t6_wpn_pistol_b2023r_world.glb",
+      "sha256": "5ceb1808046a9055fc783c23664f005039b0675dc35d61c2c87d3c0474b389ea",
+      "size": 119192,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/t6_wpn_pistol_browninghp_world.glb",
+      "sha256": "5f9a12e3207b76b4fd9407e837d5f6d42b2c3608082d6e0af1664b249f6d8dbb",
+      "size": 56756,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/t6_wpn_pistol_fiveseven_world.glb",
+      "sha256": "6503b22b275b1c8d3a0bd1be4990e77840b2d2fe075183cf2bc9bb970613a44a",
+      "size": 42940,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/t6_wpn_pistol_kard_world.glb",
+      "sha256": "42b677e24148ab9ba2b259f8db38347d8ae1abd656492cdb6c3158cf4e94453d",
+      "size": 71396,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/t6_wpn_pistol_m1911_world.glb",
+      "sha256": "5baa5d867cd63355bf4ba0c0d5e396b7d277f1a1259a2619f3149243b12319a8",
+      "size": 77040,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/t6_wpn_pistol_makarov_world.glb",
+      "sha256": "977ca1b9f3b354f17bc05f1e8b23ec957092f39596058970dd3cc17199e2482f",
+      "size": 75100,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/t6_wpn_pistol_python_world.glb",
+      "sha256": "9e60a99e6c1fc5159722213f8726eac9646ce9acc2978adee1662c68881ea0c7",
+      "size": 98772,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/t6_wpn_shotty_saiga_world.glb",
+      "sha256": "db94fa35204ecfa2cb13be32d984e52863790031f25813df8fd37cf521ac2f33",
+      "size": 152012,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/t6_wpn_shotty_spas_world.glb",
+      "sha256": "3778ef6e8ad6bb6803389987bd26f1f1c603303d030bc8f19cd25422353244e6",
+      "size": 82192,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/t6_wpn_shotty_srm1216_world.glb",
+      "sha256": "7ec74c7912a3999d78e82a1cdc4b0ad982e63fb90ab54dd476087b5ee3d4785d",
+      "size": 129980,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/t6_wpn_smg_ak74u_world.glb",
+      "sha256": "47cfe9c067d85d7fc9dbe306af80dddd0277edd63854fca412513a5213ed0193",
+      "size": 106296,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/t6_wpn_smg_chicom_world.glb",
+      "sha256": "f5113245af27cc0612e601ea39abb6657c46cfb1c8abd50f297355e997688c58",
+      "size": 123384,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/t6_wpn_smg_mp5_world.glb",
+      "sha256": "ff6df0c9392b5e7d381e37701d5d91300dcf2b18974f06bba102cfb71ba320e2",
+      "size": 166892,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/t6_wpn_smg_uzi_world.glb",
+      "sha256": "39e8b8346d1f6c6148c953bb51ae7fef8dc10471ce2c737e215dfe16663a94b9",
+      "size": 124916,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/t6_wpn_sniper_dsr50_world.glb",
+      "sha256": "5531a69bc43bc3454699f4127ad422b30a4c886b98fea17a7be9559bcde6302b",
+      "size": 133408,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/bots/t6_wpn_sniper_m82_world.glb",
+      "sha256": "44468cc5a40b3a17273577539d49d68f831b5668ebb786ee4b4e0558f8d9e64e",
+      "size": 121012,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/lang/en_us.json",
+      "sha256": "e280374f184979eef13056e541366aca162276aa29a394d3de941b99f88d6f06",
+      "size": 1676,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/ar_ak47.json",
+      "sha256": "1b380638d3982f0e16c8fb2cdc79f7f91c6a0c9df8fd6e8a3ede2eb5fe1a7799",
+      "size": 90,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/ar_fal.json",
+      "sha256": "1b380638d3982f0e16c8fb2cdc79f7f91c6a0c9df8fd6e8a3ede2eb5fe1a7799",
+      "size": 90,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/ar_galil.json",
+      "sha256": "1b380638d3982f0e16c8fb2cdc79f7f91c6a0c9df8fd6e8a3ede2eb5fe1a7799",
+      "size": 90,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/ar_m14.json",
+      "sha256": "1b380638d3982f0e16c8fb2cdc79f7f91c6a0c9df8fd6e8a3ede2eb5fe1a7799",
+      "size": 90,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/ar_m16a2.json",
+      "sha256": "1b380638d3982f0e16c8fb2cdc79f7f91c6a0c9df8fd6e8a3ede2eb5fe1a7799",
+      "size": 90,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/ar_m4.json",
+      "sha256": "1b380638d3982f0e16c8fb2cdc79f7f91c6a0c9df8fd6e8a3ede2eb5fe1a7799",
+      "size": 90,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/ar_saritch.json",
+      "sha256": "1b380638d3982f0e16c8fb2cdc79f7f91c6a0c9df8fd6e8a3ede2eb5fe1a7799",
+      "size": 90,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/ar_type95.json",
+      "sha256": "1b380638d3982f0e16c8fb2cdc79f7f91c6a0c9df8fd6e8a3ede2eb5fe1a7799",
+      "size": 90,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/ar_x95l.json",
+      "sha256": "1b380638d3982f0e16c8fb2cdc79f7f91c6a0c9df8fd6e8a3ede2eb5fe1a7799",
+      "size": 90,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/ar_xm8.json",
+      "sha256": "1b380638d3982f0e16c8fb2cdc79f7f91c6a0c9df8fd6e8a3ede2eb5fe1a7799",
+      "size": 90,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/frag_grenade.json",
+      "sha256": "8eca719a9b6afa2cdab9ae90ff4046737bf096945e6b147bcbf9a69e3b06ecbd",
+      "size": 58,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/lmg_hamr.json",
+      "sha256": "1b380638d3982f0e16c8fb2cdc79f7f91c6a0c9df8fd6e8a3ede2eb5fe1a7799",
+      "size": 90,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/lmg_m60.json",
+      "sha256": "1b380638d3982f0e16c8fb2cdc79f7f91c6a0c9df8fd6e8a3ede2eb5fe1a7799",
+      "size": 90,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/lmg_rpd.json",
+      "sha256": "1b380638d3982f0e16c8fb2cdc79f7f91c6a0c9df8fd6e8a3ede2eb5fe1a7799",
+      "size": 90,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/pistol_b2023r.json",
+      "sha256": "1b380638d3982f0e16c8fb2cdc79f7f91c6a0c9df8fd6e8a3ede2eb5fe1a7799",
+      "size": 90,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/pistol_browninghp.json",
+      "sha256": "1b380638d3982f0e16c8fb2cdc79f7f91c6a0c9df8fd6e8a3ede2eb5fe1a7799",
+      "size": 90,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/pistol_fiveseven.json",
+      "sha256": "1b380638d3982f0e16c8fb2cdc79f7f91c6a0c9df8fd6e8a3ede2eb5fe1a7799",
+      "size": 90,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/pistol_kard.json",
+      "sha256": "1b380638d3982f0e16c8fb2cdc79f7f91c6a0c9df8fd6e8a3ede2eb5fe1a7799",
+      "size": 90,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/pistol_m1911.json",
+      "sha256": "1b380638d3982f0e16c8fb2cdc79f7f91c6a0c9df8fd6e8a3ede2eb5fe1a7799",
+      "size": 90,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/pistol_makarov.json",
+      "sha256": "1b380638d3982f0e16c8fb2cdc79f7f91c6a0c9df8fd6e8a3ede2eb5fe1a7799",
+      "size": 90,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/pistol_python.json",
+      "sha256": "1b380638d3982f0e16c8fb2cdc79f7f91c6a0c9df8fd6e8a3ede2eb5fe1a7799",
+      "size": 90,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/shotty_ksg.json",
+      "sha256": "1b380638d3982f0e16c8fb2cdc79f7f91c6a0c9df8fd6e8a3ede2eb5fe1a7799",
+      "size": 90,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/shotty_saiga.json",
+      "sha256": "1b380638d3982f0e16c8fb2cdc79f7f91c6a0c9df8fd6e8a3ede2eb5fe1a7799",
+      "size": 90,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/shotty_spas.json",
+      "sha256": "1b380638d3982f0e16c8fb2cdc79f7f91c6a0c9df8fd6e8a3ede2eb5fe1a7799",
+      "size": 90,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/shotty_srm1216.json",
+      "sha256": "1b380638d3982f0e16c8fb2cdc79f7f91c6a0c9df8fd6e8a3ede2eb5fe1a7799",
+      "size": 90,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/smg_ak74u.json",
+      "sha256": "1b380638d3982f0e16c8fb2cdc79f7f91c6a0c9df8fd6e8a3ede2eb5fe1a7799",
+      "size": 90,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/smg_chicom.json",
+      "sha256": "1b380638d3982f0e16c8fb2cdc79f7f91c6a0c9df8fd6e8a3ede2eb5fe1a7799",
+      "size": 90,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/smg_mp5.json",
+      "sha256": "1b380638d3982f0e16c8fb2cdc79f7f91c6a0c9df8fd6e8a3ede2eb5fe1a7799",
+      "size": 90,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/smg_uzi.json",
+      "sha256": "1b380638d3982f0e16c8fb2cdc79f7f91c6a0c9df8fd6e8a3ede2eb5fe1a7799",
+      "size": 90,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/sniper_dsr50.json",
+      "sha256": "1b380638d3982f0e16c8fb2cdc79f7f91c6a0c9df8fd6e8a3ede2eb5fe1a7799",
+      "size": 90,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/models/item/sniper_m82.json",
+      "sha256": "1b380638d3982f0e16c8fb2cdc79f7f91c6a0c9df8fd6e8a3ede2eb5fe1a7799",
+      "size": 90,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/shaders/post/crt.json",
+      "sha256": "67e5faabcbdd6b3e1a84bc003296309ca60acfa76a67f657d1c391445b8c234c",
+      "size": 230,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/shaders/post/grayscale.json",
+      "sha256": "6bd7d4f32475a4d76c8e39cb0adba78519b1c8f666ce79ad3206760d85f08a80",
+      "size": 230,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/shaders/post/inverted.json",
+      "sha256": "f2c253a779cfa68e54d8cb6d65ba25e0b68f7d823d6780c89fb4c08cedf6dd52",
+      "size": 230,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/shaders/post/kuwahara.json",
+      "sha256": "c11d085ce3fd252b191c1c19ee43d78e17f756b56f404515651ffd3af38706bb",
+      "size": 212,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/shaders/post/pixel_art.json",
+      "sha256": "3906b4b23fa836a8089ffbb97112fa097c6faa82edb1cf173ef263add6a57d78",
+      "size": 212,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/shaders/post/sepia.json",
+      "sha256": "57487769345ace018cd3cde057c649d1bb4875e5c1f06782186efedb123e0184",
+      "size": 230,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/shaders/post/toon.json",
+      "sha256": "c27b1bb808e0df8333fdb958c6dd56a39c2d05d3f1697929d5f7f0a36135c849",
+      "size": 212,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/fire/00169e69.ogg",
+      "sha256": "6e14d32626e9d50e3aeb2cf9a20b98ba18b8589ae19a465ace5c2992b46e09ca",
+      "size": 19229,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/fire/0022ad6d.ogg",
+      "sha256": "903ea5fd8ad4e76540839eeffa48ee8fb5cbefade9458bfb9ba98d77360a5876",
+      "size": 21245,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/fire/064c6a04.ogg",
+      "sha256": "1296bbba6a95455d100041166c782021575c7b9b6199244f69100bbb2c09fc97",
+      "size": 19924,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/fire/0fb48ecd.ogg",
+      "sha256": "0dfe567f4421ac956812079d50db74631839fdefb3cbc43b4b64c6d93d614780",
+      "size": 30184,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/fire/1439a2c1.ogg",
+      "sha256": "298e1699b8b897cbd324be91c63431690639c44d4f4cfa4d06ba17e1afdd5a16",
+      "size": 15398,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/fire/26703e0e.ogg",
+      "sha256": "d239b91dae88da5656ddca6a468672e938c0e413faafec50f75f15aaf94b382e",
+      "size": 21468,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/fire/32c58d3d.ogg",
+      "sha256": "93578f77d61738657d50ef81cd072dd45930a807a558450505cf851510e5363d",
+      "size": 28780,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/fire/41b267c0.ogg",
+      "sha256": "8ff220cc846ff955e5eb88c26324137d30cfaa6f6f4f861cbca886fccad8bde3",
+      "size": 20281,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/fire/4c050f00.ogg",
+      "sha256": "4e737bcd65911879b394f335420184937861f4f2c7e513ce2842d40e1ca25e59",
+      "size": 39426,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/fire/69ef2050.ogg",
+      "sha256": "171846f87b7b2a63c40a2698c8485914d9e43e687155651fbeab29049580ae31",
+      "size": 15837,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/fire/6becbe97.ogg",
+      "sha256": "722b8b1e91d6af3685a471d004adeb64667745f71b721cdba380231751cd3525",
+      "size": 51072,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/fire/6c21b25e.ogg",
+      "sha256": "13caf564a67434c3f9a7f93f4334e73f0337c224dd2f2e1ba1df76682df71741",
+      "size": 14857,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/fire/95fe9cba.ogg",
+      "sha256": "9e0b58b0ad50ffcf3a51cdfc680220e6a899562db3af05312bbd2afb08ebfbe2",
+      "size": 18414,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/fire/9de6248e.ogg",
+      "sha256": "d3ea2df59ddcc816bf2d18758c87bb9e7ffa7aac28dc2f0e29cbf24c6006c837",
+      "size": 20855,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/fire/a0ae8bf2.ogg",
+      "sha256": "3d32866726540ad6e736650130c22eef4290638ab3065b36d73407b41e431b1d",
+      "size": 35810,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/fire/a5f7b58e.ogg",
+      "sha256": "2ef26c85fa4b0fd6044677173bdd5905fd01bca13abff44363e78a218a04df90",
+      "size": 20680,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/fire/b23c5a22.ogg",
+      "sha256": "c35e6552fe8aa76ec1741615e2277b4e65b57b470e6fc516a367c5d1731aea34",
+      "size": 19254,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/fire/bb5e450e.ogg",
+      "sha256": "8a7faccee2f53ab31d4c73cf046b7bc70941a7429d596c425ad037996c00e7e1",
+      "size": 22160,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/fire/c6aa3ce6.ogg",
+      "sha256": "9986863bb2df9b768a5b9251e415b128563612b3a2336298c4f3385f7dc9588c",
+      "size": 30497,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/fire/cbe994c2.ogg",
+      "sha256": "7302cac251947f59079af3c3a6ec7a480b3a3f3ad0b0f70aab6d4a6305698bd6",
+      "size": 24397,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/fire/cd4f7d1b.ogg",
+      "sha256": "1c58e1775c31786cf51c23040f33e9a1ebd08f3968b459647dd18eaad82e6d26",
+      "size": 18925,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/fire/daa370be.ogg",
+      "sha256": "73a2fcd87a5ad1d24b785fd18f4818bbb629dc6d986bf14d985de0ebd7867b75",
+      "size": 18634,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/fire/e8569dde.ogg",
+      "sha256": "9a24b28cc6d8083d5f26b7e693e92d70e5452a0c9a1dc74d34847e9f292de9a7",
+      "size": 22545,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/grenade/0a84da64.ogg",
+      "sha256": "adfd5f81267554555f2a50b31e673c120eabd9e56b6b14db2d31bf296a602a07",
+      "size": 10281,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/grenade/25cdc1e2.ogg",
+      "sha256": "4ec1b5d8632a331c8343736d0c7f6bd0ce6ab7a5a96711ec602e024602c97236",
+      "size": 10683,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/grenade/4116a960.ogg",
+      "sha256": "8ebeb7aeb2e94a70ba6ffc65eed18696faac7f8f2f271ba327a0d4637a58c296",
+      "size": 9867,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/grenade/98294e23.ogg",
+      "sha256": "7ac255aadc8fd93886d25ee89fcd151d3aefa3626154d2f517e6a4135adee783",
+      "size": 9315,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/grenade/b37235a1.ogg",
+      "sha256": "fad6db1ec0b2cdfcc997ae9c732f31a7af341a32ef856000797cd8a3cfcbc866",
+      "size": 12524,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/grenade/dd49ab0e.ogg",
+      "sha256": "973250083d0baf16a64294febf2f61cf0e652edcf2a6e3075f2033b15aac7035",
+      "size": 10499,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/00eea46d.ogg",
+      "sha256": "4f0844177628580691dea078dfe713c296fe5c038f88052c4607107f4d58b178",
+      "size": 11828,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/01cca96b.ogg",
+      "sha256": "e66bb9064456cce87b5d30bd08a9c9257fc23a6d2942131ec0ab731fef1a006d",
+      "size": 6519,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/024ac6f9.ogg",
+      "sha256": "3b18d51af26bee589a697219d5eb5fc4d714e6c99ff2ce196872466fecb587d3",
+      "size": 15625,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/04e35e12.ogg",
+      "sha256": "eb5437936f9ccaa1174bdfdf45f573d86e36ec043c4297b2e86f05184b4186c4",
+      "size": 8671,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/052e4113.ogg",
+      "sha256": "fa4ccdf86cb7283d6698dac87fe3d57a8fdaafd99d78d7767d031a87ab13835e",
+      "size": 7352,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/0ab274aa.ogg",
+      "sha256": "1f7771062883504a81c8fd822a1a29efdf27affbeaf63fe23a909de842bc6c7f",
+      "size": 7302,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/0b653a19.ogg",
+      "sha256": "0de468f303fc916e40856f51639d465e311f615fa8ad6233e83257bd6a004dfb",
+      "size": 5810,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/11a0fae2.ogg",
+      "sha256": "e61ccc08b930b8d20ef56cb09480ee422241abb4e5ce1f438736b891896d0cf8",
+      "size": 11363,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/1298d144.ogg",
+      "sha256": "ffd4fa5901e24f0d3a011400b5222303f8206a6a2e520d3e77595eab40495a5d",
+      "size": 6753,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/14c77fb6.ogg",
+      "sha256": "eddb77ed7494f9a92c2436acb9bdec8c32b802e1ecd0ec6d825cf0b8d59ee3fa",
+      "size": 15122,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/1bec103a.ogg",
+      "sha256": "c8cff21e7989ed6de41bf51613434d1b44c6d1145035176ede8330e2f1b95acb",
+      "size": 27325,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/21e72bc6.ogg",
+      "sha256": "90d21cbce2507871a62f4f25e49d1d56308077176b123d2d62e281f5fb4e4e70",
+      "size": 7318,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/26517d04.ogg",
+      "sha256": "07bb9b74f213c75f64bca231d6be6b29aa3a458c505be239d1b73ef9d81233dc",
+      "size": 11238,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/26ae2197.ogg",
+      "sha256": "384b0239792f6fb2737eed6652d00918018f9e2a7f98d6e7f8b9cdd83dec8ee4",
+      "size": 7598,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/2b084b38.ogg",
+      "sha256": "d305bdb0610146b501377fab6b15614f148eb406fa68f5a0f3d4dfa0d5f827d2",
+      "size": 15488,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/3003de64.ogg",
+      "sha256": "a4f31c00985e5b5983165264f2bd1c5cb71852c7805eba0b6ade5f0f40d8e9b4",
+      "size": 8351,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/33ad5781.ogg",
+      "sha256": "79b7737ca6923005ffc65374f7b1132431a58babf01ea2d6eae4755e3656a122",
+      "size": 6213,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/385e7867.ogg",
+      "sha256": "bdaf19c17047178cbe3fe8e10fa2c8cb51f393cea839f2391e7d0ca6dce2fbd3",
+      "size": 5649,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/389033c5.ogg",
+      "sha256": "5ade05e674f0f8f938ef26c0eb809bc041c9e2b5d08c2a44a957364fa1bfb6ca",
+      "size": 8359,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/3ece1bc3.ogg",
+      "sha256": "71a329e0b66a4b498ff36b9a572e4c30c41de9b45ce4f329b3c9acc0be113c25",
+      "size": 17677,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/40ad1b57.ogg",
+      "sha256": "a3e862179784dfe5f1c57585bb42119f88141fface215131980e4377359cdcfb",
+      "size": 10052,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/420dcc3e.ogg",
+      "sha256": "959da8a878a4344a68d6a02a050ff5f8d13eb7db1288798cdfad9aa9246775ab",
+      "size": 8441,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/43007faf.ogg",
+      "sha256": "e432dd5307dc5ce201cb7696527d23f233db4cb210ca38e72984f743df93dcb3",
+      "size": 22396,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/452fbc52.ogg",
+      "sha256": "c9428574382871b97a8449b08a3417dfc093b2c0cf07255c22bc52470ee1258d",
+      "size": 25247,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/465132b6.ogg",
+      "sha256": "cec093f1dcc92846b26728ba9c5805d37b852bca45865d99d1e13ef21ac5a78c",
+      "size": 14060,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/4bf3f20a.ogg",
+      "sha256": "9286a5ba20e5963c67ba8185581193070008e2cf79b46f826552d9c730c13cbc",
+      "size": 8761,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/4eed8de2.ogg",
+      "sha256": "4a3409e3cc3101e5405759168185548e719a8a34ad059f54a4053cac0a46dd26",
+      "size": 16868,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/5612d024.ogg",
+      "sha256": "d5919cf09495739141a0d079dd3904867e265fe5f1b738b1dca9a76187cf2c10",
+      "size": 6178,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/567ad8aa.ogg",
+      "sha256": "00e6650b0ce711826a50f5b9f684067eb58a834cea14ca591f24f67c049a24e6",
+      "size": 17794,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/56b1b718.ogg",
+      "sha256": "584f46e3314bfec9df5b98d5244b5bfb93e5e66f967c99ebf98fd64b01a5ffec",
+      "size": 8651,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/58014930.ogg",
+      "sha256": "338d734483a236cb68fdcf285ca0f664045d08925b78fa4d4c3fcb4ef5994629",
+      "size": 8650,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/58b8d0b9.ogg",
+      "sha256": "f3c0c52c13b5bcd9a0672a7de6d951261a2f8675f3a108c596145302146267c6",
+      "size": 16259,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/5bd70c69.ogg",
+      "sha256": "c89b111fa5f6db5a50ff6ec7f1466a8100432ddad18cc7383a11dcb4752f5f8e",
+      "size": 21039,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/5bf602d5.ogg",
+      "sha256": "5bbc08f5f6bc8f08da5ed2cfe9cec8c79d72f38226e5de7b080364ebcfddc6ed",
+      "size": 9144,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/5d281fff.ogg",
+      "sha256": "a8d4f180abd8372df15f8bddc973d80dd2595f5c754bac3dd1ae455ffc2865a7",
+      "size": 7858,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/5f30495b.ogg",
+      "sha256": "b8559ec7537fbd611621dc34306304e2a26321a798e2b646142c699aec366d33",
+      "size": 8792,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/61c848c5.ogg",
+      "sha256": "278bf06392c22eadc1b421b22a182ad662ccdb39b470d0998d81aaf78fd64cbe",
+      "size": 8275,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/635d5f16.ogg",
+      "sha256": "717293b198f6effa2e8dc8b952b652869d47b8a34048b624bedf3a131d2ea60d",
+      "size": 7343,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/67dd5100.ogg",
+      "sha256": "547be9cca0aab80f30c16a97507e4fc07add1cc882530b6e97ab14d709548567",
+      "size": 6795,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/6da175c4.ogg",
+      "sha256": "1c051a70a14a28a444ec60de44190123b3bf5076708fe2d843e428582a273ba5",
+      "size": 7042,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/7255a2d2.ogg",
+      "sha256": "6bd09cba83fd72dd251ebbd6c36356af966609137d2c84a6cabe62f8f54c199a",
+      "size": 15885,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/734a30ae.ogg",
+      "sha256": "047ab4454d3ca669ee3beefeb9ab28819c6ae7a96b0eca246888888e752fc7eb",
+      "size": 11059,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/7350e9c8.ogg",
+      "sha256": "2b37c736bd460bf56cb7e4a55abb8e22ff28e77c0876ed628ca429b98957fc5b",
+      "size": 5443,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/751e3df0.ogg",
+      "sha256": "dc22cc734c852842227ccab98ce4e7541665fdc950e609652d09679eb1c47887",
+      "size": 7232,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/773eea53.ogg",
+      "sha256": "584e1614e562ae7ce950c4bc35c0c1a5cf0cade5594954286da58199b885f3a3",
+      "size": 12781,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/78dbbbf1.ogg",
+      "sha256": "124e74a35db77997043dad9d279878cb66d9e867d3f2fd4fbcb4eff98fc925fd",
+      "size": 7814,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/864e4e00.ogg",
+      "sha256": "62619a7c88534e08754b6fb0e22637c810597e85c4be0b4f81ca2598f10d5af5",
+      "size": 11852,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/8ae2e830.ogg",
+      "sha256": "e933805702e80e3a3d1643a9d77343f1145e258397a655e2f5003706772f72cd",
+      "size": 16392,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/8bcfd1b2.ogg",
+      "sha256": "f382184528b7b2bb5f45360e6cf3a846d1e833facf8ff6c34b866492f3fd95a0",
+      "size": 9947,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/8d9e8a50.ogg",
+      "sha256": "0c911617a981aa4076f183bcf4639f1cc56d54ef9635474f8051284732a34eee",
+      "size": 15492,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/8e93182c.ogg",
+      "sha256": "19d82991a9f243eb4c636794f908bda6285e8c9e910fb193e5e5110532620123",
+      "size": 11868,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/901a4286.ogg",
+      "sha256": "5ccf36542ceff51bd943ffeede24768edb1eee8c8fc5d9d549a646b774b1a2bf",
+      "size": 13179,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/9287d1d1.ogg",
+      "sha256": "d2e379b43ea016719f3cbdc73d23d97fc0afaf1947be5875d395d4d1ea09ea68",
+      "size": 10368,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/992999ec.ogg",
+      "sha256": "3a1e740accaf3ec8b8ed79223414968be041c5c18a75c62f62c976c381ba9be3",
+      "size": 9562,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/9a9a7a78.ogg",
+      "sha256": "8bf9c58811a23fb9233a03924b1f246dadba9f61c2ba1094ae83a35b57ba3f13",
+      "size": 9622,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/9adc5021.ogg",
+      "sha256": "87e672af0b0da340a049c8fc705926828fedc3473df8c2c64c9bf360a79d0fb7",
+      "size": 8081,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/9c23cdf5.ogg",
+      "sha256": "aa7b5b0f710178a738f8c10280c477a1892c04f6dcf77a08f20f560df422e340",
+      "size": 7280,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/9d63d779.ogg",
+      "sha256": "ae5e2f3870c5ead75beb518162a18160c27e5e71e2b0269ebe9c468c1e27cca9",
+      "size": 12683,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/9eaa8c95.ogg",
+      "sha256": "dfe08e768faa4c5ab70e07bb7d7fa97c7604b4b00dabec93634550d5e3beb0cc",
+      "size": 8271,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/9f4fd669.ogg",
+      "sha256": "9d19fc05749f2f2ae9d897323f70d943eb8beb2cc111a274c98d57e45f4dfb57",
+      "size": 7103,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/a1aa7c00.ogg",
+      "sha256": "0e53cda8ec3fd9ac20319d1d0cd1059782229e98b45b119bf1e869193751efee",
+      "size": 9455,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/a3a120c4.ogg",
+      "sha256": "62b36265d9c0600e5dc415932e4c9cebe9e7e962dc279146a7197b3b1cc568cb",
+      "size": 8044,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/ad35dc83.ogg",
+      "sha256": "4c42b7c258a41820c73af2a40d5644babfdc7d38d0b421cfd1b4df41156317f5",
+      "size": 7263,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/b0ba4ff2.ogg",
+      "sha256": "bca82ae0dc5c0216cc0436004f47a0ff72eada55876d6dda3bf0c40f272a1a62",
+      "size": 9751,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/b686a6f1.ogg",
+      "sha256": "2e3bf33da54011b1f29d8895cbfd4ac0edf8776543380861d3fc1ded305d2f00",
+      "size": 7254,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/b8acbef7.ogg",
+      "sha256": "e74befcd5b2281a2c7f917f1b21060df2d38976bd7be7adfca7cad1ce18d247c",
+      "size": 14300,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/bdf604df.ogg",
+      "sha256": "096ead15b6d7279d703e18bddde6e0cb2e0659da88fc1e819c2578d1d4538dd8",
+      "size": 7906,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/be6c3d5c.ogg",
+      "sha256": "12bb912655cdc9fe992c0f29bc5869fcf6a319bd348f7b8861f26391e774dfc4",
+      "size": 9097,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/c3950ad5.ogg",
+      "sha256": "642b3b4824b3dd26fb7f13e0d109435d061557a9b05627829d321ee7c7b1556a",
+      "size": 6789,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/c5b59253.ogg",
+      "sha256": "96a96c88c780699c9d43c452228a469264c84e24f69251e98e54199f0f202256",
+      "size": 10353,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/ca5cd571.ogg",
+      "sha256": "5a2c47dfd46612832696335b16f28c42bbe6a4d0142efa34414387e6c4911329",
+      "size": 8467,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/ce518f16.ogg",
+      "sha256": "754ab766f84669a49972c73955da328989fd9274fa867acdeda1705c0309181a",
+      "size": 11403,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/ce9c7217.ogg",
+      "sha256": "c3c835827163bd53b27f6b55fb6e72c9152986817bf0fe204cae4a794dbccad4",
+      "size": 9477,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/d19cefda.ogg",
+      "sha256": "92be043f59bcf081194c15f1eb661c5532f5bbca50da8380c1cd5f7de5352788",
+      "size": 8106,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/d9389f4c.ogg",
+      "sha256": "94748dcf82ca853b8be78aacdb679bbf42e5122f140fa58c6c169d065dbe2d6e",
+      "size": 11707,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/dc56dd43.ogg",
+      "sha256": "c963d0c7468e2ad937060ee8909ac1245d38a85fd86fac033254cb227f816f05",
+      "size": 8816,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/dd489472.ogg",
+      "sha256": "85323d91b70e0d8a466fd38f5605d796f4239baf32d6e7f44f31fae9f2481163",
+      "size": 8074,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/e106efd9.ogg",
+      "sha256": "b933cd202bfbbffd0f0ec88c0aa3c108f2e53bbbec5366ece9ec20bc277ff367",
+      "size": 7144,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/e1292c30.ogg",
+      "sha256": "81aa563a51cff4de03d62daeab02b6c27f3a719d8cdb7affc0b1bd291fa2bc6a",
+      "size": 8722,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/e48ecff9.ogg",
+      "sha256": "0de84d781f3615dcbfba01eb2816632edbf9a40f26fc53eacfd1ae4624e177b5",
+      "size": 9594,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/e56a014f.ogg",
+      "sha256": "7eecd6aeca6d6672a592a2a01546c42a55021eaef939708698cb90609a374ff2",
+      "size": 51452,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/e5a5bcef.ogg",
+      "sha256": "0419911574652ddb336786a0188fee794d1c29e022811e3c8f0bdfec6aaecd13",
+      "size": 9495,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/e7b47069.ogg",
+      "sha256": "6c4d2cb5fc25721f4ad014f05966eebd818072d4f4f08d731564e20ada9cde82",
+      "size": 5881,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/e80f2b71.ogg",
+      "sha256": "c1b95ce7ba4c311aaec59c80657ce88c5bab872c8215e1d56a92c8e3b44c39e0",
+      "size": 10837,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/e8948ae1.ogg",
+      "sha256": "901c4049f2941ae5aa512f3057e41ee3d88488565704d98fba540d8ffd8bd8b6",
+      "size": 11739,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/e9635d9d.ogg",
+      "sha256": "8ebe57394be9913fb7e03f1231eedb6d2d2e06f1e1b7dfb35fa3a35fce55349b",
+      "size": 23832,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/e99a7694.ogg",
+      "sha256": "ede18ca62889a9c0679c1398015ed6b5a84fd6101b596f8e0fe641d4899628ea",
+      "size": 12092,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/eb555cca.ogg",
+      "sha256": "7805ba7a89a907fe1e6c4f8a84ea367460fbc82a939b62b846b83a92c4dacfdc",
+      "size": 7934,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/ef319826.ogg",
+      "sha256": "ef3570a233a4b7799855aa50165ee480d79d9e63f64ac4ff979b73f47e171d91",
+      "size": 8394,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/f01c529b.ogg",
+      "sha256": "8c36bd935900b4c2469d7a1e77eabfa3ee2af2e2ed1efc2092a7ae3896e373c6",
+      "size": 6942,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/f0234f55.ogg",
+      "sha256": "aa744c844f6ff7f3b2d98bf502ccfd47d6d0429a827e7de364f1aa1ce973d6df",
+      "size": 7067,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/f0eeb4b2.ogg",
+      "sha256": "f96a3a73791c4f7cc057fc80cb46c87a72446836a7368a279b8b9842a85c6450",
+      "size": 27389,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/fb981adc.ogg",
+      "sha256": "7ef6a4dbdcaa01599ef08f21eebb0472f13ad682bc352d719abefb67fa2357dc",
+      "size": 8605,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/fca408ac.ogg",
+      "sha256": "2cdd8d7275a371f00d2ef94f079e7eda3af23b7d4c1619f7565e5f55a847b161",
+      "size": 19373,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/fcd5dce1.ogg",
+      "sha256": "4e44014731db5bca558e3d5dd4720dcf9bec896d85855288200e3ca223034d5b",
+      "size": 6806,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds/original/mechanical/fd0ff6c5.ogg",
+      "sha256": "29d121f646cb646cf957e6bfe7b9833f654f757c8a8c63c209abd3d5a2fa6725",
+      "size": 6195,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/sounds.json",
+      "sha256": "1bbc6dff3121bf6455bafded799119efb950eef3037c2ad0f25a7aa0ff240583",
+      "size": 30799,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/custom/0224d5dee9e1b20f.png",
+      "sha256": "6ca9797ec3e9f559e53a162916385b7e7424b7a59bbc5b856f941ca1bf223822",
+      "size": 676080,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/textures/custom/1305a408cd7e3d22.png",
+      "sha256": "6a854dfdb576826ff685653734d4f16d7f9831b3443de82896ddc2518ed6ae6e",
+      "size": 701852,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/textures/custom/156552d288b81aaf.png",
+      "sha256": "08371b13ef39ad39052d3c5e17f6b32cce3457a65691cdc4f4cb07611fcf91ce",
+      "size": 1113126,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/textures/custom/2fcec6ee4895c9a0.png",
+      "sha256": "233a0178b8d30b55399d82da27360910ca473679d26959ddfa6e53b252f6f126",
+      "size": 42183,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/textures/custom/3576f336ba944f77.png",
+      "sha256": "32c065078ee57dbd812a5c06f8cb1e3a673cb1594daa35aa43b1f72b297f1b2c",
+      "size": 607311,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/textures/custom/3596a739342f108c.png",
+      "sha256": "294d0c5f9a870abcea7de5a219a8c4a743e9e0f00940fe7f68390b33c06b2e24",
+      "size": 1574009,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/textures/custom/46b7fc943a3be15e.png",
+      "sha256": "77dc0d7288760f6bd0a39419f0e07b87a7cb0581d05a7a2dd1a41f8bbc7966aa",
+      "size": 468535,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/textures/custom/4d4c98f616f0dc16.png",
+      "sha256": "329ca8768c95271a65a633801d7d4fa9186d4821486001aae43300a29f5ca94e",
+      "size": 1003027,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/textures/custom/55fa747d198321a3.png",
+      "sha256": "8b2120a0eff8d5dd80394c778a184021fad49813dfb4d94c146cbbed714609af",
+      "size": 397528,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/textures/custom/720e35b32a18346a.png",
+      "sha256": "0fc914acbfd1545043208d180da4813f18c87c25e441fff72224c6a233546f46",
+      "size": 468473,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/textures/custom/75e6f4cf14988339.png",
+      "sha256": "916705791a2c5381c2090a2fea6f6e2d63c30aec4f65054fcf16f4399768771c",
+      "size": 204574,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/textures/custom/85f6406c0dad17b8.png",
+      "sha256": "802f8c92453368b5e99fba8fc25c535c3c799956c0ac82d40193769a55f31236",
+      "size": 1224181,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/textures/custom/86809cec29adfb8d.png",
+      "sha256": "4b2d864c047a0eb4aa9649759dc689a1d2ac7f6cb133658bd4147df2e54d4ab3",
+      "size": 1601993,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/textures/custom/8e445b018db0ac34.png",
+      "sha256": "11eaa0f7e837b069f45b6538bb38c4b3fa309af674ac02f50c00e840fb462745",
+      "size": 1507136,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/textures/custom/95e022fae6eb3637.png",
+      "sha256": "70f37f798419d5b786d93c79ed39fb721584518607f89a080e00382fa1cae864",
+      "size": 834723,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/textures/custom/a55e015e3c656e40.png",
+      "sha256": "13f909c4056ebacb69414e55e7319bc011eb1bb192c663a3758a9bfac56e2f6b",
+      "size": 212886,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/textures/custom/a5736c61e65eb69b.png",
+      "sha256": "2139db405b6eedf06f61485b02ffa1878a80aa915260a85e4ee0dc216472a34b",
+      "size": 1531154,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/textures/custom/bebccf562d2aa12e.png",
+      "sha256": "e0993e41116790ec01be7ac2c929e79e4b3280c241a40e5df3c698660f2b01b9",
+      "size": 582878,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/textures/custom/cb837f0ab1955970.png",
+      "sha256": "179aa2dfbe62b97295393b23669668d06464eea8aa64ffa0a7ae965614094de4",
+      "size": 1861299,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/textures/custom/d8622147b52327e9.png",
+      "sha256": "6fd82820bb2714cc3ca5c725eed85b32196d389298413c7ace776bab6cdff418",
+      "size": 1327770,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/textures/custom/e4b648b1096a6ca6.png",
+      "sha256": "62fdad3959c9be8e5d266118ccf5916f11e1b081b787564cef146ff468875be3",
+      "size": 1178040,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/textures/custom/fcc753c13fecb9ef.png",
+      "sha256": "245da616afffc0edcb6bd3234745c5674d50804e4fc0179bab873562ee791b90",
+      "size": 798888,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/textures/custom/solid_ccccccff.png",
+      "sha256": "13c0960cea3a93592c31d953cacdea59f913fbd291a597d80ae3c29f0be8da7b",
+      "size": 78,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/textures/hud/grenadeicon_32.png",
+      "sha256": "64979d509ef82126894fedc72b899843b68a68a834920e10978bc79a2342289f",
+      "size": 1546,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/hud/lui_ammo.png",
+      "sha256": "80a663291e2b29303986fbed9a9ddf685b861cb6b72f5ec80708235a26346f75",
+      "size": 1574,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/hud/lui_ammo_shadow.png",
+      "sha256": "a8d89185c96723930e6367ca803de22912ae9ad53b071fa80d044810a4a534fb",
+      "size": 718,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/hud/lui_meter_bracket.png",
+      "sha256": "c41c2a2c0cc74c675b0bb1a523f63ac5b45a8886ae548fc0ed3e6aa45481048b",
+      "size": 1322,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/hud/menu_vis_bracket_minimap.png",
+      "sha256": "c156d3aaffe973cb0e112fba4d5ec2b339cf1d57742dbacf9fac19a4efc17353",
+      "size": 4462,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/hud/menu_visor_left_bracket.png",
+      "sha256": "3e4021e62008a5569eda45ab5706785b71b7533df05e540ef77eb8ef14738fd2",
+      "size": 6525,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/hud/menu_visor_right_bracket.png",
+      "sha256": "5a027fc7d949ad46ae86a3a9a376fce58a0a21627a62551faa6012476018f635",
+      "size": 4510,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/hud/scope_overlay_dsr50_720.png",
+      "sha256": "4eed8e989bfc60382002ccb16bc8836757473af5f221ab2481a3d197de1782af",
+      "size": 188850,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/0013147708880971e11bd163314eb616377b8bd02119736d4f3ee25c90b95f9e.png",
+      "sha256": "0013147708880971e11bd163314eb616377b8bd02119736d4f3ee25c90b95f9e",
+      "size": 1167255,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/09a95236cd2904c7125a5481bd8700a359be1948983a1d88abe5b2570c068131.png",
+      "sha256": "09a95236cd2904c7125a5481bd8700a359be1948983a1d88abe5b2570c068131",
+      "size": 1500762,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/09d31820dcfe5ffae1864fb46ee6ead385201d52436afe6f79b52567cb213f5e.png",
+      "sha256": "09d31820dcfe5ffae1864fb46ee6ead385201d52436afe6f79b52567cb213f5e",
+      "size": 1283395,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/0c0ccb7a7495fdd51abab6c8d5aea3918d30eb3ebeb002199b34c82581aa077a.png",
+      "sha256": "0c0ccb7a7495fdd51abab6c8d5aea3918d30eb3ebeb002199b34c82581aa077a",
+      "size": 874046,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/0ffc5166b798584775851b224323482205a843f90eac37fbd5d5e953d10825e9.png",
+      "sha256": "0ffc5166b798584775851b224323482205a843f90eac37fbd5d5e953d10825e9",
+      "size": 1270895,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/13b0a5c02fa95f78a73fc7389b23dc52e77a4de16b08c1c0ca56ffcc4b12ca84.png",
+      "sha256": "13b0a5c02fa95f78a73fc7389b23dc52e77a4de16b08c1c0ca56ffcc4b12ca84",
+      "size": 198037,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/17a4bedc313d9cc771b4edbe8f8647316a07cb95b496e7f388a2ca2ff323bf54.png",
+      "sha256": "17a4bedc313d9cc771b4edbe8f8647316a07cb95b496e7f388a2ca2ff323bf54",
+      "size": 319378,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/203c027e090c88bc13e4ee0a00b325dd909cc953fac304bf19eafb24d4e5fab3.png",
+      "sha256": "203c027e090c88bc13e4ee0a00b325dd909cc953fac304bf19eafb24d4e5fab3",
+      "size": 6516,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/2219e9463f619696bba05d66b270e0a43247fad90477ae981fda8468503014db.png",
+      "sha256": "2219e9463f619696bba05d66b270e0a43247fad90477ae981fda8468503014db",
+      "size": 275740,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/23aacd239be9303d5f3fcc6e12d5c2eb892713db419013d31d12cee85503c9e7.png",
+      "sha256": "23aacd239be9303d5f3fcc6e12d5c2eb892713db419013d31d12cee85503c9e7",
+      "size": 223863,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/2b7353e2824bd930513ef80a981b6f173b28420fbb3466610731c0c888457078.png",
+      "sha256": "2b7353e2824bd930513ef80a981b6f173b28420fbb3466610731c0c888457078",
+      "size": 2731111,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/2f6bcd5da96afacf637d68b5c21fe3052a454b16b3ccaaec4210d15f200709ef.png",
+      "sha256": "2f6bcd5da96afacf637d68b5c21fe3052a454b16b3ccaaec4210d15f200709ef",
+      "size": 570817,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/311b55ea9b136b7f7e4645c455f62ae406da484e7a8fc056a7bd7618f473178a.png",
+      "sha256": "311b55ea9b136b7f7e4645c455f62ae406da484e7a8fc056a7bd7618f473178a",
+      "size": 1543476,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/315b2923f183c2dcaad3bbc828c2498c4c5d9657ab27db2a63eb8de1e5e9170e.png",
+      "sha256": "315b2923f183c2dcaad3bbc828c2498c4c5d9657ab27db2a63eb8de1e5e9170e",
+      "size": 15396,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/337e869e9bb52072e3901eb978a3399e85ec1fdde7c51a418747e1bef3f0f902.png",
+      "sha256": "337e869e9bb52072e3901eb978a3399e85ec1fdde7c51a418747e1bef3f0f902",
+      "size": 1150012,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/384d178697037c3f83c2c5453c561f82651a85c7bae9103ed740b83ade839b4f.png",
+      "sha256": "384d178697037c3f83c2c5453c561f82651a85c7bae9103ed740b83ade839b4f",
+      "size": 1381695,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/3c7eff3281a7dd5dfe77c90c94d56d55856327d94ccba002a1197f9965bf0a75.png",
+      "sha256": "3c7eff3281a7dd5dfe77c90c94d56d55856327d94ccba002a1197f9965bf0a75",
+      "size": 890494,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/4548b926047ebaac94302418d027300bdc5b62af53ddfa5ff2d29281f292c0ee.png",
+      "sha256": "4548b926047ebaac94302418d027300bdc5b62af53ddfa5ff2d29281f292c0ee",
+      "size": 1137369,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/46943095a26e1fa4c179e204d06522ef79bb6703edb01f73d7a7241e5fd8e645.png",
+      "sha256": "46943095a26e1fa4c179e204d06522ef79bb6703edb01f73d7a7241e5fd8e645",
+      "size": 1385021,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/495d329cbd0643242cf64fc5397cf54886f5176affe3788db6488809f3e80dfe.png",
+      "sha256": "495d329cbd0643242cf64fc5397cf54886f5176affe3788db6488809f3e80dfe",
+      "size": 216212,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/49a0a2e4676d8e2e6f3a76390be13d6ece62e770eae5808db60e00c41f5cb49f.png",
+      "sha256": "49a0a2e4676d8e2e6f3a76390be13d6ece62e770eae5808db60e00c41f5cb49f",
+      "size": 274007,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/4d97dcea8058a58cae3a19503a58419147f69e0a54afefc8ce59f22d61cf0005.png",
+      "sha256": "4d97dcea8058a58cae3a19503a58419147f69e0a54afefc8ce59f22d61cf0005",
+      "size": 1311970,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/52885032228761193a4d0d7c39a1fd7fcdfe3875d80a6ec4b50946625e401220.png",
+      "sha256": "52885032228761193a4d0d7c39a1fd7fcdfe3875d80a6ec4b50946625e401220",
+      "size": 363474,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/54b53d238e46ac19d29d7656ded8251df783e53229f427e823041bca644a39fd.png",
+      "sha256": "54b53d238e46ac19d29d7656ded8251df783e53229f427e823041bca644a39fd",
+      "size": 226957,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/57295f64e351b42d0976bffa3a105025d8c3a7d1198a7e7d7541f9e41fbd9142.png",
+      "sha256": "57295f64e351b42d0976bffa3a105025d8c3a7d1198a7e7d7541f9e41fbd9142",
+      "size": 755366,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/5831680547e3c5d6d881bb5198ee7cd73ca2c3e04f5ddbde9056975727bdd756.png",
+      "sha256": "5831680547e3c5d6d881bb5198ee7cd73ca2c3e04f5ddbde9056975727bdd756",
+      "size": 647754,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/591bbf5b92f55ce190fdf58526e14c89106ed7a09ae8201bb8b5b6806c0549ab.png",
+      "sha256": "591bbf5b92f55ce190fdf58526e14c89106ed7a09ae8201bb8b5b6806c0549ab",
+      "size": 77475,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/616d28f89afd42a0f11be0b620095d2edbbd100c9813af8ec9343d5bb1aabba5.png",
+      "sha256": "616d28f89afd42a0f11be0b620095d2edbbd100c9813af8ec9343d5bb1aabba5",
+      "size": 993838,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/63b43664613471878afc4aef6db68c000478e09cb68a344db55f8e8178275e65.png",
+      "sha256": "63b43664613471878afc4aef6db68c000478e09cb68a344db55f8e8178275e65",
+      "size": 869074,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/645b2da09f95c676e1a5bcdcc056f68f244e5cc65dc2efee96c7b9406730630d.png",
+      "sha256": "645b2da09f95c676e1a5bcdcc056f68f244e5cc65dc2efee96c7b9406730630d",
+      "size": 331452,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/648eac4c8dd72271e5b2c19d776fb2681817cb74ddf8b32ac81dcba8ce7e77c4.png",
+      "sha256": "648eac4c8dd72271e5b2c19d776fb2681817cb74ddf8b32ac81dcba8ce7e77c4",
+      "size": 1309784,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/68a5138832efa6ec409c5ef38bf6c0db94fddd192a5478137e37ffa1bbbe6dca.png",
+      "sha256": "68a5138832efa6ec409c5ef38bf6c0db94fddd192a5478137e37ffa1bbbe6dca",
+      "size": 36240,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/6b2e6bd51bd98a81385caa61b120a6570efa6f030aea05e39bdb62f693608b44.png",
+      "sha256": "6b2e6bd51bd98a81385caa61b120a6570efa6f030aea05e39bdb62f693608b44",
+      "size": 709572,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/6d52cf38e79f7c1532ef356b4cdce1fe6543644db922a4c85329d66d55ee687f.png",
+      "sha256": "6d52cf38e79f7c1532ef356b4cdce1fe6543644db922a4c85329d66d55ee687f",
+      "size": 326905,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/6da5c2147034f3a1f8cb4d9ae613aa01b858e9e1cd8529c3c41bfd9e24ca3364.png",
+      "sha256": "6da5c2147034f3a1f8cb4d9ae613aa01b858e9e1cd8529c3c41bfd9e24ca3364",
+      "size": 844633,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/6df00bb7a859a9bd50e47b7db4f1f9396a470e47e4d2288cfef887243ca5db0c.png",
+      "sha256": "6df00bb7a859a9bd50e47b7db4f1f9396a470e47e4d2288cfef887243ca5db0c",
+      "size": 1521293,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/6e4179623eeb99b0c828e76a4ca5dd5e01c837fe77d67e66f83367a60216f1e6.png",
+      "sha256": "6e4179623eeb99b0c828e76a4ca5dd5e01c837fe77d67e66f83367a60216f1e6",
+      "size": 936914,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/6fb29945ce7f4914b8aa18d3ff7ecd85c82bbe7b8ccfa6721e6e18cdcefa3d95.png",
+      "sha256": "6fb29945ce7f4914b8aa18d3ff7ecd85c82bbe7b8ccfa6721e6e18cdcefa3d95",
+      "size": 200200,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/723f3dc521cd24e16cbcb2c5a3c50b28809ddb0344d5b21e1289c00d122a7f05.png",
+      "sha256": "723f3dc521cd24e16cbcb2c5a3c50b28809ddb0344d5b21e1289c00d122a7f05",
+      "size": 960576,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/72e057252fa333ebcadad24b9c224ab8d738a6554c6e5785cd626e1d9aefcca3.png",
+      "sha256": "72e057252fa333ebcadad24b9c224ab8d738a6554c6e5785cd626e1d9aefcca3",
+      "size": 1314128,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/74e8b8af15b4d1db80dda314be6f2ff83eb7a2850dd9d287e4286d5468daec21.png",
+      "sha256": "74e8b8af15b4d1db80dda314be6f2ff83eb7a2850dd9d287e4286d5468daec21",
+      "size": 601380,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/781a94344d2d22954900d725440eb323cb4215c8aa15ed281bb091a319597f86.png",
+      "sha256": "781a94344d2d22954900d725440eb323cb4215c8aa15ed281bb091a319597f86",
+      "size": 1174368,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/82b39536fa21230f358bf3c5ea0ead6281455add0ef1f8723ce44f1264b76530.png",
+      "sha256": "82b39536fa21230f358bf3c5ea0ead6281455add0ef1f8723ce44f1264b76530",
+      "size": 577339,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/82c285b66b9ef5e74db1cb0bfd6cd58c7113419cc968ae24c43144df6222fcef.png",
+      "sha256": "82c285b66b9ef5e74db1cb0bfd6cd58c7113419cc968ae24c43144df6222fcef",
+      "size": 1269243,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/890439c6eb702b4c3d8e56dbbde01ce2ff1f38ca03b973eb25465ad56b14c841.png",
+      "sha256": "890439c6eb702b4c3d8e56dbbde01ce2ff1f38ca03b973eb25465ad56b14c841",
+      "size": 550070,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/897a684bf392706b54886e11f161ad7b8ab7ae33c4875871e08aadaa3147a8cc.png",
+      "sha256": "897a684bf392706b54886e11f161ad7b8ab7ae33c4875871e08aadaa3147a8cc",
+      "size": 6489,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/8a354a45ad2c4f19224c0b53902dd7554c6ed4f27ba3219d6e7e8642e920a6b3.png",
+      "sha256": "8a354a45ad2c4f19224c0b53902dd7554c6ed4f27ba3219d6e7e8642e920a6b3",
+      "size": 1357366,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/8b39934ba2c57a351828916274e0b324b8f9c3911d76c0501e3eaa78ae50b3e4.png",
+      "sha256": "8b39934ba2c57a351828916274e0b324b8f9c3911d76c0501e3eaa78ae50b3e4",
+      "size": 16039,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/8c5f0f9ac1e5921edc2678b4ac8c23b8c47a556e24aa90527e1f95350658037c.png",
+      "sha256": "8c5f0f9ac1e5921edc2678b4ac8c23b8c47a556e24aa90527e1f95350658037c",
+      "size": 1094492,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/8fb10128ca4d5ee85ec1dfc4a511ca82b80079ac8d34957ce731f795ce45427d.png",
+      "sha256": "8fb10128ca4d5ee85ec1dfc4a511ca82b80079ac8d34957ce731f795ce45427d",
+      "size": 615035,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/93c9637d32e94ffc289d1ca980488239edb2a78c1a6c2b38ac5c29c2ee9d1ca6.png",
+      "sha256": "93c9637d32e94ffc289d1ca980488239edb2a78c1a6c2b38ac5c29c2ee9d1ca6",
+      "size": 358028,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/9ccb609ee342b8d196b3b68d6bd96e5656941a9d64d9430c9b3f61baf291c5cf.png",
+      "sha256": "9ccb609ee342b8d196b3b68d6bd96e5656941a9d64d9430c9b3f61baf291c5cf",
+      "size": 575955,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/9fe2b3acb149932ca1051d588488863d3ce1a5a26afe5d58c56a9d122621e893.png",
+      "sha256": "9fe2b3acb149932ca1051d588488863d3ce1a5a26afe5d58c56a9d122621e893",
+      "size": 1485904,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/a50311ce9ac97f5d47f84a925915d0072d5d2ad194b83a67813f37c82e2e815d.png",
+      "sha256": "a50311ce9ac97f5d47f84a925915d0072d5d2ad194b83a67813f37c82e2e815d",
+      "size": 1390830,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/a5ce2831b1a97c0124d078a4ac49ff801eaefb1098fe3505aac15e8a3d7c49a0.png",
+      "sha256": "a5ce2831b1a97c0124d078a4ac49ff801eaefb1098fe3505aac15e8a3d7c49a0",
+      "size": 366189,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/a6570f74bc57d02b2bb41b295541edc97146e20f014e0c7ffd51ee5917390b7e.png",
+      "sha256": "a6570f74bc57d02b2bb41b295541edc97146e20f014e0c7ffd51ee5917390b7e",
+      "size": 1004744,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/a78f46486f43928b6ea316389bf34b1c2ff1bc1b5d897db86e2205eafc1c7795.png",
+      "sha256": "a78f46486f43928b6ea316389bf34b1c2ff1bc1b5d897db86e2205eafc1c7795",
+      "size": 1490349,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/a9b1d702945be8d3f0b93bf4b0f3fdbf85bdde642c8e3993823ea27b5b2c4002.png",
+      "sha256": "a9b1d702945be8d3f0b93bf4b0f3fdbf85bdde642c8e3993823ea27b5b2c4002",
+      "size": 1118090,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/a9db8731f0ee5491c615bb19981da2336367a417688b63b25c5bb3128c2e68e8.png",
+      "sha256": "a9db8731f0ee5491c615bb19981da2336367a417688b63b25c5bb3128c2e68e8",
+      "size": 694670,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/ac944b424c1d712cb0e3502c9acd0933c846bafc50f3ba8f5fac9d9bc6e0c886.png",
+      "sha256": "ac944b424c1d712cb0e3502c9acd0933c846bafc50f3ba8f5fac9d9bc6e0c886",
+      "size": 2769,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/af6e3d6f565d8675e560d6c5cd1ea8df9629a116c781b1d5dc28694bac5649a2.png",
+      "sha256": "af6e3d6f565d8675e560d6c5cd1ea8df9629a116c781b1d5dc28694bac5649a2",
+      "size": 866986,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/b27b401c915e1bed8c472278f96ff59bc6e55e7bc57a7324e349b21e04968383.png",
+      "sha256": "b27b401c915e1bed8c472278f96ff59bc6e55e7bc57a7324e349b21e04968383",
+      "size": 634930,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/bbfbafada466996db4637d3c78395f641d325a79c42f3026b5447d1799a24a88.png",
+      "sha256": "bbfbafada466996db4637d3c78395f641d325a79c42f3026b5447d1799a24a88",
+      "size": 110541,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/c40b726984f3cdea92d6973728d645f471941a76477bece8c6bf344ea66eacf5.png",
+      "sha256": "c40b726984f3cdea92d6973728d645f471941a76477bece8c6bf344ea66eacf5",
+      "size": 232247,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/c5131da5b6f455570e0ec39ec57b678d86a30931e7ff6b69e3b855d72f275013.png",
+      "sha256": "c5131da5b6f455570e0ec39ec57b678d86a30931e7ff6b69e3b855d72f275013",
+      "size": 273331,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/c86ee87a3d66f5086430a9c248965631f7c3f14b93bb4198707a411dfb7e9d61.png",
+      "sha256": "c86ee87a3d66f5086430a9c248965631f7c3f14b93bb4198707a411dfb7e9d61",
+      "size": 1063239,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/c90342d758c20dad73c6dbaec16faaeed168f42448b63a6a8deaa5c88d7e7403.png",
+      "sha256": "c90342d758c20dad73c6dbaec16faaeed168f42448b63a6a8deaa5c88d7e7403",
+      "size": 795129,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/da5f32e0c0eae467fe01bbf16e8718c487bce7e07193b5ab463b838bb0565057.png",
+      "sha256": "da5f32e0c0eae467fe01bbf16e8718c487bce7e07193b5ab463b838bb0565057",
+      "size": 944566,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/dad53b2ff7c11bc200f0414d0e38d8aac4117e57f44a2537f9733e75762465a3.png",
+      "sha256": "dad53b2ff7c11bc200f0414d0e38d8aac4117e57f44a2537f9733e75762465a3",
+      "size": 1272258,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/decfb86e24b9e356f2ab586a04837550dd74be491797e2c25eb1429120a2da4f.png",
+      "sha256": "decfb86e24b9e356f2ab586a04837550dd74be491797e2c25eb1429120a2da4f",
+      "size": 1253365,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/e58ccf4519d9b97462e1848399ed70d1ad9bc16706775e84e2b4659702d2ae1a.png",
+      "sha256": "e58ccf4519d9b97462e1848399ed70d1ad9bc16706775e84e2b4659702d2ae1a",
+      "size": 200488,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/e77b248b0826e3aa098253aa9e4c53d073ee5fbac46001d15ab2ebb63bb36b96.png",
+      "sha256": "e77b248b0826e3aa098253aa9e4c53d073ee5fbac46001d15ab2ebb63bb36b96",
+      "size": 346651,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/f0a8e089eda97ff4ffd8088baae67481fa7c1d730e93d7637db3a94a6fb44014.png",
+      "sha256": "f0a8e089eda97ff4ffd8088baae67481fa7c1d730e93d7637db3a94a6fb44014",
+      "size": 821243,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/f3a7d808c1ab4a9851f847704cb4025a328924ad05fd0c06ff8c6577085684ce.png",
+      "sha256": "f3a7d808c1ab4a9851f847704cb4025a328924ad05fd0c06ff8c6577085684ce",
+      "size": 487652,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/f6b2dde22a7a53f9f2de4063e40dd823d25027e3f1522417822825aaf91dd3d6.png",
+      "sha256": "f6b2dde22a7a53f9f2de4063e40dd823d25027e3f1522417822825aaf91dd3d6",
+      "size": 1344911,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/textures/original/f921927196c81c278ebfe46051ba1b5988f3ae688866958ceaf143e598cef177.png",
+      "sha256": "f921927196c81c278ebfe46051ba1b5988f3ae688866958ceaf143e598cef177",
+      "size": 4544346,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/ar_ak47-mag.glb",
+      "sha256": "6b2dc9e958d0a3fc91acca6ba4bc08d3a5aafb4f63b5fe971685fb3107b73ace",
+      "size": 44268,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/ar_ak47.glb",
+      "sha256": "e7f7335813987669e501df7f5b8bd1e84f9fc16f2448890e9bb0b3e2386d79d7",
+      "size": 222616,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/ar_fal-mag.glb",
+      "sha256": "ff59d6eb11758718bcb5e225b3543a0ea19d6ef116acfa444188c099d8ef8f75",
+      "size": 24684,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/ar_fal.glb",
+      "sha256": "55b6d128a121114578966ca568f116d567d70266186b35861489563b51e7af23",
+      "size": 348256,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/ar_galil-mag.glb",
+      "sha256": "09e3789b04f1bd1cea1c4562372cfb35300701f9eb757b1f1ea08e67ed275d4c",
+      "size": 35028,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/ar_galil.glb",
+      "sha256": "a78231f54ea0659fdb563cb9ba95aa788ab26f87ce0597c3fe34d3168ff1c558",
+      "size": 275784,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/ar_m14-mag.glb",
+      "sha256": "d466bc8abdbd2bcc44764df5324d33a2433e1c60907e8b9c85bd5b35564bbf07",
+      "size": 23076,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/ar_m14.glb",
+      "sha256": "57dd6dd8c4ec4d519cf80212434980aaf204f78cd96ed620e0d1990f672d9cd8",
+      "size": 406676,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/ar_m16a2-mag.glb",
+      "sha256": "30e7158aa913f6c787319cde2cdf01b334a5d73da1481a8445439ec7e667116c",
+      "size": 25620,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/ar_m16a2.glb",
+      "sha256": "aa3f4a679502bd61672af55f61713103f2c522296cc16c470c894b513134b3d0",
+      "size": 367740,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/ar_m4-mag.glb",
+      "sha256": "28d840c9a3b4618d0e083e1296812ef322b13838e9afc37c3f2cca0bc633f0cd",
+      "size": 16992,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/ar_m4.glb",
+      "sha256": "5a1a65610eafde7cf8cdc126b6ebf3172a85b014c7e43a115f7b6d689f9609fa",
+      "size": 507476,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/ar_saritch-mag.glb",
+      "sha256": "ffab3d246d0e52924c26890c4792b5f1d3971dde9e5a6a4d7a881d10b15891eb",
+      "size": 29056,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/ar_saritch.glb",
+      "sha256": "78de73951814ab7a72a76624f352885071bde32839bf2d756541dcc0deafcf3b",
+      "size": 448836,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/ar_type95-mag.glb",
+      "sha256": "edbdd305005dd372f4cfd454ec7e8d2488d1eccd193c4eff8995dbe2c8df4d23",
+      "size": 27464,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/ar_type95.glb",
+      "sha256": "5363040c7c1fb8047ae1e86563616f9ac6b72e54fcda16738c5e958008d76c59",
+      "size": 277924,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/ar_x95l-mag.glb",
+      "sha256": "a84318781926807325fc182e7b7032e650b54a6f424a89a57943a31ca5401818",
+      "size": 36052,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/ar_x95l.glb",
+      "sha256": "07ddfb03a82d136be91be15611f170408b81e9de93da6b3e9a7c452c4818a953",
+      "size": 511828,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/ar_xm8-mag.glb",
+      "sha256": "7e5736eda9c7a3d17cd88fa32d33254202d3dd080fa9b72656d0776fa0580896",
+      "size": 57012,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/ar_xm8.glb",
+      "sha256": "1eb149e563c61dbf23bb6f55ade261b83b56b48e8e7ad84bb7e5a5ba122e8587",
+      "size": 371512,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/catalog.json",
+      "sha256": "289def3156428539aa7357803405e0282e1caa73019ea1cc595fa9083d5585e2",
+      "size": 119937,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/custom/chun-li-fortnite-skin-hands.glb",
+      "sha256": "a1f22115dab24def14fef69e27d1fbddf65ff3dd4b1f07b54688ecf56a47c9ea",
+      "size": 184684,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/custom/fortnite-the-foundation-hands.glb",
+      "sha256": "e8ba37ef0fbeacc267524fd2a99089b0a159924df04d217ffed68efe5046d672",
+      "size": 207472,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/custom/foxy-of-fortnite-fanmade-hands.glb",
+      "sha256": "82b0b00d0ece6111e2dd7e66ec019731f8abbf0ca49424266c5e804aa229588a",
+      "size": 227376,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/custom/freddy-fazbear-fortnite-hands.glb",
+      "sha256": "42eb62400981eceae85a2ebf696175efaadbeed18cd87ee796bd6a842e6711dd",
+      "size": 252564,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/custom/male-character-ps1-style-hands.glb",
+      "sha256": "ffe7fdecb2f80a4e60afb5f31f21d1b817cff8377a8513d3fe8f54128b1ed758",
+      "size": 40756,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/custom/mint-swimsuit-animated-neverness-to-everness-hands.glb",
+      "sha256": "d8bdaa3d47198ed85aaea61ae9269c33f83644851dbc3ef2f2960d9b4870905b",
+      "size": 135916,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/custom/peelyfortnite-hands.glb",
+      "sha256": "aa4695169afa92e215d4e0e14b488ae8562ad52d786d9e38804fa2efa361d17c",
+      "size": 592196,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/custom/spiderman-brand-new-day-from-fortnite-hands.glb",
+      "sha256": "f4a58457fff12ecc78c844b13da29145829bd9a66c092270ccad406efc43c542",
+      "size": 273908,
+      "optional": true
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/grenade-frag.glb",
+      "sha256": "6447776b4ed710c01706b0aa97e002663ef3dafc7ad2eefce828b41cb588a890",
+      "size": 83228,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/grenade-hands.glb",
+      "sha256": "62e47854260c29c3a5e472bf1ec3dc45f12f2a3a2dd65dc0d4441f728bf647e1",
+      "size": 443264,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/grenade-projectile.glb",
+      "sha256": "2cf22daf2ee07cd8af07ac3410cd2e726744224c1412a6b0a69c5ecaf4db44e8",
+      "size": 38328,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/grenade.json",
+      "sha256": "17d63461ef139639c3e4f5073f74aad874111e14c3e0e75e5bf1674b13db1cea",
+      "size": 1193,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/hands.glb",
+      "sha256": "c1a81a8da991465a9afa44c07093d3d60dcd75ddb1b03c8dd491d6104b376a28",
+      "size": 13661512,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/lmg_hamr.glb",
+      "sha256": "6c1b59d5914874376239b3c26c5f47c8261666a73c4aea7a10468e0f26659e36",
+      "size": 644804,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/lmg_m60.glb",
+      "sha256": "30cf5fae78b93713d3de35b5d64feeea743ae1e29b1b61e88b7da8df0f04ea1e",
+      "size": 1149044,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/lmg_rpd.glb",
+      "sha256": "163824cd84ab8b19ac959ba34794a2a3f98a4cca04650f2eed75cc041bb3f997",
+      "size": 462492,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/movement.json",
+      "sha256": "3e2afded6ba18cac3c3dc46cd7446c847ab531e6c7ce3707be62270f23d69a48",
+      "size": 8227,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/notetracks.json",
+      "sha256": "a3b9a2bc8323c8640e096c7926c9f25db421d8ee84ae297de375d8fe289a846c",
+      "size": 50478,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/pistol_b2023r.glb",
+      "sha256": "eef2700f09c95effff40f302df07e8588692adde8ac8584c6e2075c42d8d404c",
+      "size": 375328,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/pistol_browninghp.glb",
+      "sha256": "182ad82be5964489582e8657f08d1308d20a114bff563edc238babb9436425c2",
+      "size": 155060,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/pistol_fiveseven.glb",
+      "sha256": "432bdc5de8fdfc259e30dfab0a7820a5dbb220055afbc4f82d7c0f185653f398",
+      "size": 251536,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/pistol_kard.glb",
+      "sha256": "fa7b7068f441ad52a9141e48ac9949c164bf4867e3023f0b5223bedb9a00e349",
+      "size": 245576,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/pistol_m1911.glb",
+      "sha256": "345024870cb29f00f33cc4bbe466c1d3a09cf331999b5f14f0c435adba154ca1",
+      "size": 243828,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/pistol_makarov.glb",
+      "sha256": "22f50967501000a880cee4e728194e8b1d8a232cccd63781849784cceceef399",
+      "size": 218644,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/pistol_python.glb",
+      "sha256": "1c8354e2d2c2b97b7c2c2433f6d6ec03338383b0c09234848332134ca25a7426",
+      "size": 365848,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/shotty_ksg.glb",
+      "sha256": "f38e789657fea47f450e96e4b1a738ad3cd9b5d11b5f76cd8b0e43dfea26e3d8",
+      "size": 344772,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/shotty_saiga-mag.glb",
+      "sha256": "34fb382bb019420024f761cb093660344a53e08b8e2e4606801d3a166b7799ca",
+      "size": 62828,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/shotty_saiga.glb",
+      "sha256": "11bd17b5eee1ed1ccee95e1a3ed2b5179ce04a073dbbbdc320394225f84995fb",
+      "size": 412424,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/shotty_spas.glb",
+      "sha256": "a2c07fd9ad9c09f53b9c6b603fd75f93cab33985106fa198b72b42dd198c1e12",
+      "size": 351680,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/shotty_srm1216.glb",
+      "sha256": "83573d036c3f13f07a9d6298e8c8aaecc08ef21f15deae0039e9a4c316bbdcd2",
+      "size": 512444,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/smg_ak74u-mag.glb",
+      "sha256": "d577eb160cf1c0f8a42551e042c9b27ce0554c6b044b223cb5d46dac52fb3fe2",
+      "size": 44272,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/smg_ak74u.glb",
+      "sha256": "0093e4ab443886cb73d1d49b71dfd4092b45efe8d030c64230e43076b0829568",
+      "size": 196620,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/smg_chicom-mag.glb",
+      "sha256": "12a2a3dcd9d02156df4fb6da3a87e43f719372d3893f6c35f890136d233c249f",
+      "size": 27620,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/smg_chicom.glb",
+      "sha256": "d5f665745745acd3f2c546b98c7e714fba10f03ff6a8e1280bdbe1e8796c5bfe",
+      "size": 249092,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/smg_mp5-mag.glb",
+      "sha256": "b6645bc4dfb94811470c3795706db399a18097e698ad8ac84f13e1d23c491c8c",
+      "size": 25972,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/smg_mp5.glb",
+      "sha256": "a30925bb731cfb555dd33c24026df73fb33625da934537bc7fbbe6728900d92c",
+      "size": 312348,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/smg_uzi-mag.glb",
+      "sha256": "b7e795612e482a5063e560d22ed17fef0bf5ac26804d964cea2fc41718fda7ca",
+      "size": 22928,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/smg_uzi.glb",
+      "sha256": "541574b64167c5fd19a6a163c73d6602284b6d37a2402ca02fda215766e75a15",
+      "size": 328152,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/sniper_dsr50-mag.glb",
+      "sha256": "4ca76f2f64998aa102c50ec29fa2be565ccb62244c2f12f789beebe2dd38c4c3",
+      "size": 52044,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/sniper_dsr50-scope.glb",
+      "sha256": "7a80ae5ede8bc2c79725b8e4cab823c52b9358e938f51ddb11074c043f343978",
+      "size": 147656,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/sniper_dsr50.glb",
+      "sha256": "1fde4c03f795f620eebecefea389dfa1512d2874aa7d2d0d21b7c684a5b0b1db",
+      "size": 444808,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/sniper_m82-mag.glb",
+      "sha256": "5079fd5845cc717850cb13fd80c6a0476440f8af5040d8d69bdad64278d7f030",
+      "size": 28872,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/sniper_m82-scope.glb",
+      "sha256": "7c7db6b9dca694fcaa43ecaea4f16b098898168ae203016c28d48afdaa93ebb4",
+      "size": 173868,
+      "optional": false
+    },
+    {
+      "path": "assets/bo2beta/viewmodels/sniper_m82.glb",
+      "sha256": "d9267e31714c8a536cd371155c984435fb9c87e107afc2764123cb70664439c4",
+      "size": 230116,
+      "optional": false
+    },
+    {
+      "path": "assets/minecraft/shaders/program/bo2beta_filter.fsh",
+      "sha256": "e03f78c678ec36e526b6d7b142d892f7547860119e369c838b35f35036518ada",
+      "size": 2614,
+      "optional": false
+    },
+    {
+      "path": "assets/minecraft/shaders/program/bo2beta_filter.json",
+      "sha256": "764eed61835d56c8baac08fe0acc97f5875b3e45389132f695eb89209c4ce3b3",
+      "size": 659,
+      "optional": false
+    },
+    {
+      "path": "data/bo2beta/combat.json",
+      "sha256": "e1ac540f26afae0f7b2b700a9aba25eca39642b883ebd5b643fca5026779bb56",
+      "size": 18381,
+      "optional": false
+    },
+    {
+      "path": "data/bo2beta/damage_type/bullet.json",
+      "sha256": "d051e609abbd218bd8ccbb1a261d703c453488573448764f323da7a6f026a3d3",
+      "size": 62,
+      "optional": false
+    },
+    {
+      "path": "data/bo2beta/damage_type/knife.json",
+      "sha256": "9f72647966ac85638d6c6c5ad85a60a9ba0b3098ebf266c585280df6e56a8ac6",
+      "size": 61,
+      "optional": false
+    },
+    {
+      "path": "data/bo2beta/damage_type/visual_blast.json",
+      "sha256": "5961ca79e00e849253c320bf9dd054f2c8689803ced3fe897f504b196da3f958",
+      "size": 62,
+      "optional": false
+    },
+    {
+      "path": "data/bo2beta/grenade.json",
+      "sha256": "7bc952a86270a08040f536601179cbc18a7811512aad811158c246b64d1aef1a",
+      "size": 723,
+      "optional": false
+    },
+    {
+      "path": "data/bo2beta/nuketown-spawns.json",
+      "sha256": "956f3cd68b538baf4037f8efb9297ef9bdabbd5aa4e6b3ce2d2631f1bf81cb02",
+      "size": 2791,
+      "optional": false
+    },
+    {
+      "path": "data/bo2beta/weapons.json",
+      "sha256": "f3930b44e142667b7c3949d58ba55fc5a0c2a81df0770b873f43870801e13b8e",
+      "size": 4314,
+      "optional": false
+    },
+    {
+      "path": "data/minecraft/tags/damage_type/bypasses_armor.json",
+      "sha256": "d23a350e0fd60092b56d9ef02da59bcf969a730342aaaa05b52dcdcf994f0c6c",
+      "size": 62,
+      "optional": false
+    },
+    {
+      "path": "data/minecraft/tags/damage_type/bypasses_enchantments.json",
+      "sha256": "d23a350e0fd60092b56d9ef02da59bcf969a730342aaaa05b52dcdcf994f0c6c",
+      "size": 62,
+      "optional": false
+    },
+    {
+      "path": "data/minecraft/tags/damage_type/bypasses_resistance.json",
+      "sha256": "d23a350e0fd60092b56d9ef02da59bcf969a730342aaaa05b52dcdcf994f0c6c",
+      "size": 62,
+      "optional": false
+    },
+    {
+      "path": "data/minecraft/tags/damage_type/bypasses_shield.json",
+      "sha256": "d23a350e0fd60092b56d9ef02da59bcf969a730342aaaa05b52dcdcf994f0c6c",
+      "size": 62,
+      "optional": false
+    }
+  ],
+  "runtime": [
+    {
+      "path": "local-bo2/weapons/fire-catalog.txt",
+      "sha256": "7778bb52fb1fd8203df276a0df3ae46e0ba1aa279c02a82b9d1a82420b92a06a",
+      "size": 1419
+    },
+    {
+      "path": "local-bo2/weapons/grenade-spec.json",
+      "sha256": "7bc952a86270a08040f536601179cbc18a7811512aad811158c246b64d1aef1a",
+      "size": 723
+    },
+    {
+      "path": "local-bo2/weapons/m1911-variant.txt",
+      "sha256": "af8499510d9d946c2b715cb9218e9557e4e56d7c7427f6db6bb9cf8ecc5f0703",
+      "size": 282
+    },
+    {
+      "path": "local-bo2/weapons/shell-catalog.txt",
+      "sha256": "8c0efa3e9db2ba465d624282109405141f52e6a60d7949b516c5f5275bb8ecc6",
+      "size": 250
+    },
+    {
+      "path": "local-bo2/weapons/weapon-catalog.txt",
+      "sha256": "7d82dac9c602336d863c631f4f5e00420d477f11de25d534bb5f46a9eb5904e0",
+      "size": 10165
+    }
+  ]
+}
